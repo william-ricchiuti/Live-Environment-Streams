@@ -1,5 +1,56 @@
 # Changelog
 
+## [4.0.0] - 2026-11-03
+
+A fresh export of the production camera pool. Every listed source was checked against its
+operator's terms. Stream count: 5,997 → 6,903. Every stream is `active` and has a direct URL.
+
+### Changed
+- **Regenerated from the production pool** with `scripts/export_from_sqlite.py`. The export takes
+  the validated live-video and MJPEG cameras (13,072 rows) and applies the publication policy.
+  It opens the database read-only.
+- **Allowlist publication policy.** A source is exported only if it has a reviewed entry
+  (`SOURCES-REVIEW.md`). Any URL with a token, signature, auth, key, expiry, session or `uid`
+  parameter, a Wowza per-session chunklist, a bearer path segment, credentials or a bare IP
+  host is dropped.
+- `sources.json` rebuilt: 26 families, with `license`, `attribution` and `terms_url` fields
+  instead of the blanket `fair_use` label. Small producer-specific families are merged:
+  `Caltrans_D01..D12` and `OpenTrafficCamMap` into `caltrans`; `ladot`, `ladot_probe` and
+  `Louisiana_DOT` into `ladotd_511`; `vdotcameras` into `vdot`. `autobahn_nrw` is renamed
+  `hessen_mobil`, because those streams come from Hessen Mobil, not NRW.
+- `coordinates_quality`: `exact` unless the importer marked a fallback, or three or more
+  cameras share one position (then `city`). Result: 6,460 exact, 442 city, 1 fallback.
+- `scripts/validate.py` now probes `mjpeg` and `mp4` URLs. `scripts/stats.py` counts them as
+  directly usable.
+
+### Added
+- More than 4,000 road-authority cameras: Caltrans (1,676), MnDOT (973), Iowa DOT (543),
+  Seattle DOT (341), Louisiana DOTD (330), Hawaii DOT (247), Norway's Statens vegvesen video
+  (106), Keelung/Taiwan TDX MJPEG (63) and 13 Indonesian city transport offices (623).
+- `attribution` property on every feature: the credit each operator asks for.
+- `url_type` values `mjpeg` and `mp4`.
+- `SOURCES-REVIEW.md`: the licence/terms finding for every source, included or excluded.
+
+### Removed
+- **Retired families are dropped, not marked `status: retired`.** SkylineWebcams (1,684) has
+  blocked server access since June 2026, and its URLs need tokens that expire within hours.
+  YouTube (475, including `skyline-youtube` and the `youtube-*` discovery families) can no
+  longer be extracted server-side. None of these has a validated row in the production
+  pool, so nothing could truthfully be marked, and an entry nobody can play is noise for an
+  agent filtering this file. `html_page` and `youtube` URL types are gone with them.
+- **Sources whose terms forbid listing, or which could not be cleared** (details in
+  `SOURCES-REVIEW.md`): opencctv (its terms forbid scraping; this removes the Korean, Turkish,
+  Polish and other aggregator rows), 511NY/NYSDOT (needs a developer agreement we have not
+  read), iTIC, balticlivecam, worldviewstream, Coastalwatch/maritime-nsw, resortcams,
+  camguide, Nova Scotia Webcams, ipcamlive, brownrice, WRAL, Skyrail, wetmet and small
+  private sites.
+- **ALDOT (552)**: its streams are now FairPlay `SAMPLE-AES` encrypted and cannot be played
+  without a licence server.
+- webcamera_pl: retired for licence terms.
+- Country coverage drops from 98 to 6 (US, ID, TH, NO, TW, DE), and scenic environments are
+  gone. This is the cost of listing only cleared sources. Sources can come back as each one
+  is cleared directly with its operator.
+
 ## [3.0.0] - 2026-06-12
 
 ### Changed

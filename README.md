@@ -3,7 +3,11 @@
 A curated, agent-optimized repository of live outdoor webcam streams across the globe.
 Originally created to power [twitch.tv/alwaysrainsomewhere](https://www.twitch.tv/alwaysrainsomewhere).
 
-**5,997 streams · 98 countries · 67 sources · 4,226 verified active · 4,229 directly usable**
+**6,903 streams · 6 countries · 26 sources · all from public road authorities · every URL directly playable**
+
+Version 4.0.0 (2026-11-03) is a fresh export of the production camera pool. It lists only
+sources whose terms allow it (see [`SOURCES-REVIEW.md`](SOURCES-REVIEW.md)), and only URLs
+with no tokens or signatures. SkylineWebcams and YouTube are gone. See [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Data quality
 
@@ -11,27 +15,31 @@ Not all streams are equal. The schema includes fields that tell you exactly what
 
 | Field | What it tells you |
 |-------|-------------------|
-| `url_type` | Whether the URL is a direct HLS manifest, a YouTube link, or an HTML page requiring extraction |
+| `url_type` | `hls` (m3u8 manifest), `mjpeg` (multipart JPEG stream) or `mp4` (short clip the operator refreshes) |
 | `coordinates_quality` | Whether coordinates are camera-level (`exact`), city-level (`city`), or a capital fallback (`country_centroid`) |
-| `status` | `active` = verified working by the production pipeline; `unverified` = not yet probed |
-| `last_verified` | When the stream last passed a live probe (ffprobe-based, from the production selector) |
-| `resolution` | Probed video resolution where known (e.g. `1920x1080`) |
-| `source_url_requires` | Special handling: `browser` for HTML pages, `token_refresh` for expiring auth tokens, or `null` |
+| `status` | `active` = in the production pipeline's validated pool on the export date |
+| `last_verified` | When the production pipeline last recorded a successful validation (may be weeks old; see Known limitations) |
+| `resolution` | Probed video resolution where known (e.g. `1280x720`) |
+| `source_url_requires` | Special handling needed; always `null` in this release |
+| `attribution` | The credit the source operator asks for. Keep it when you republish |
 
-Unlike most webcam lists, `active` status here is not a one-time HTTP 200 check — it reflects
-continuous validation by a production streaming system that actually plays these feeds 24/7.
+Unlike most webcam lists, `active` here is not a one-time HTTP 200 check. It means the camera is
+in the validated pool of a production streaming system that plays these feeds 24/7.
 
-**Recommended query for agent pipelines** — get only streams you can use immediately:
+**Recommended query for agent pipelines.** This returns direct video URLs with camera-level positions:
 
 ```python
 usable = [
     f for f in streams
     if f["properties"]["status"] == "active"
-    and f["properties"]["url_type"] in ("hls", "youtube")
-    and f["properties"]["source_url_requires"] is None
+    and f["properties"]["url_type"] == "hls"
+    and f["properties"]["coordinates_quality"] == "exact"
 ]
-# ~2,929 verified streams with direct URLs
+# 6,389 streams; pass the URL straight to ffmpeg/ffprobe
 ```
+
+Add `"mjpeg"` and `"mp4"` to the `url_type` filter if your pipeline handles them
+(for MJPEG, `ffprobe -f mpjpeg <url>`).
 
 ## Usage
 
@@ -49,28 +57,21 @@ coords = selected["geometry"]["coordinates"]
 
 print(f"Loading {props['name']} at {coords}")
 print(f"URL: {props['url']} (type: {props['url_type']})")
-print(f"Environment: {props['environment']} | Resolution: {props['resolution']}")
-print(f"Source: {props['source_family']} | Status: {props['status']}")
+print(f"Resolution: {props['resolution']} | Source: {props['source_family']}")
+print(f"Credit: {props['attribution']}")
 ```
 
-Filter by environment or quality:
+Filter by country or quality:
 
 ```python
-# Verified coastal streams with direct HLS
-coastal_hls = [
-    f for f in streams
-    if f["properties"]["environment"] == "coastal"
-    and f["properties"]["url_type"] == "hls"
-    and f["properties"]["status"] == "active"
-]
-
 # All streams for a specific country
-us_streams = [f for f in streams if f["properties"]["country_code"] == "US"]
+no_streams = [f for f in streams if f["properties"]["country_code"] == "NO"]
 
 # HD streams only
 hd = [f for f in streams
       if f["properties"]["resolution"]
       and int(f["properties"]["resolution"].split("x")[1]) >= 720]
+# 1,028 streams
 ```
 
 ## GeoJSON schema
@@ -82,23 +83,24 @@ Each `Feature` in `streams.geojson`:
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [-77.4875, 38.7749]
+    "coordinates": [7.939882, 58.141163]
   },
   "properties": {
-    "name": "I-95 at Route 123",
-    "display_name": "Woodbridge",
-    "url": "https://example.com/stream.m3u8",
-    "country_code": "US",
+    "name": "NO - Agder - Fidjane mot Kristiansand (E39)",
+    "url": "https://kamera.vegvesen.no/public/1029002_1/manifest.m3u8",
+    "display_name": "Agder, Norway",
+    "country_code": "NO",
     "environment": "traffic",
-    "source_family": "vdot",
-    "quality_tier": "standard",
+    "source_family": "vegvesen_video",
+    "quality_tier": "high",
     "scene_type": "traffic",
     "url_type": "hls",
-    "resolution": "1280x720",
+    "resolution": "1024x576",
     "coordinates_quality": "exact",
     "status": "active",
-    "last_verified": "2026-06-11T22:14:09+00:00",
-    "source_url_requires": null
+    "last_verified": "2026-10-27T15:15:50+00:00",
+    "source_url_requires": null,
+    "attribution": "Statens vegvesen (NLOD)"
   }
 }
 ```
@@ -108,139 +110,135 @@ Each `Feature` in `streams.geojson`:
 | Property | Type | Description |
 |----------|------|-------------|
 | `name` | string | Descriptive camera name |
-| `display_name` | string | Human-readable location label (city/landmark) |
-| `url` | string | Stream URL (HLS manifest, YouTube link, or HTML page) |
+| `display_name` | string | Human-readable location label (city/region) |
+| `url` | string | Stream URL (HLS manifest, MJPEG stream or MP4 clip) |
 | `country_code` | string | ISO 3166-1 alpha-2 country code |
 | `environment` | string | Scene category (see table below) |
 | `source_family` | string | Data source identifier (see `sources.json`) |
 | `quality_tier` | string | `premium`, `high`, `standard`, or `low` (production scoring tier) |
-| `scene_type` | string | Granular scene label (traffic, beach, marina, etc.) |
-| `url_type` | string | `hls`, `youtube`, or `html_page` |
+| `scene_type` | string | Granular scene label |
+| `url_type` | string | `hls`, `mjpeg`, or `mp4` |
 | `resolution` | string/null | Probed video resolution (`WxH`), where known |
 | `coordinates_quality` | string | `exact`, `city`, or `country_centroid` |
-| `status` | string | `active` or `unverified` |
-| `last_verified` | string/null | ISO 8601 timestamp of last successful live probe |
-| `source_url_requires` | string/null | `browser`, `token_refresh`, or `null` |
+| `status` | string | `active` |
+| `last_verified` | string/null | ISO 8601 UTC timestamp of the last recorded validation |
+| `source_url_requires` | null | Kept for compatibility; `null` for every stream in 4.0.0 |
+| `attribution` | string | Credit requested by the source operator |
 
 ### Environment values
 
 | Environment | Count | Description |
 |-------------|------:|-------------|
-| `traffic` | 3,551 | Road/highway cameras |
-| `urban` | 1,375 | City and town views |
-| `coastal` | 461 | Beach and coastal |
-| `mountain` | 161 | Mountain, ski, and volcano |
-| `harbor` | 119 | Ports and harbors |
-| `lake` | 89 | Lake views |
-| `nature` | 78 | Nature and wildlife |
-| `waterway` | 71 | Rivers, canals, waterfalls |
-| `landmark` | 54 | Landmarks, temples, squares |
-| `marina` | 32 | Marinas |
-| `transport` | 6 | Airports and stations |
+| `traffic` | 6,893 | Road/highway cameras |
+| `landmark` | 8 | Landmarks |
+| `lake` | 2 | Lake views |
+
+Scenic, coastal and mountain cameras from commercial networks were dropped in 4.0.0 because
+their terms do not allow listing them (see `SOURCES-REVIEW.md`).
 
 ### URL types
 
 | Type | Count | How to use |
 |------|------:|------------|
-| `hls` | 3,754 | Pass directly to ffmpeg or yt-dlp |
-| `html_page` | 1,768 | Extract the stream URL from the page (most are SkylineWebcams — fetch the page and pull the `m3u8`) |
-| `youtube` | 475 | Use yt-dlp to extract the HLS manifest |
+| `hls` | 6,832 | Pass directly to ffmpeg/ffprobe |
+| `mjpeg` | 63 | `ffmpeg -f mpjpeg -i <url>` |
+| `mp4` | 8 | Short clips the operator replaces every few minutes; re-fetch to update |
 
 ### Coordinates quality
 
 | Quality | Count | Accuracy |
 |---------|------:|----------|
-| `exact` | 2,373 | Camera-level geocoded |
-| `city` | 3,614 | City/interchange level (~10 km) |
-| `country_centroid` | 10 | Capital fallback — do not use for geo-queries |
+| `exact` | 6,460 | Camera-level position from the operator's feed |
+| `city` | 442 | Several cameras share one position (interchange or city level) |
+| `country_centroid` | 1 | Fallback; do not use for geo-queries |
 
-## Source breakdown (top 20)
+## Sources
 
-| Source | Streams | Type | Countries |
-|--------|--------:|------|-----------|
-| skylinewebcams | 1,684 | Scenic/tourism | 65+ |
-| vdot | 1,168 | Virginia DOT traffic | US |
-| opencctv | 746 | Open CCTV feeds | Multi |
-| mdsha | 404 | Maryland SHA traffic | US |
-| deldot | 261 | Delaware DOT traffic | US |
-| autobahn_nrw | 252 | German Autobahn (NRW) | DE |
-| trafficvision | 245 | Traffic aggregator | Multi |
-| manual | 224 | Hand-curated feeds | Multi |
-| skyline-youtube | 167 | SkylineWebcams via YouTube | Multi |
-| itic | 88 | Thailand traffic | TH |
-| youtube | 86 | YouTube Live | Multi |
-| worldviewstream | 82 | Scenic network | Multi |
-| balticlivecam | 64 | Baltic live cams | Multi |
-| camguide | 53 | Scenic network | Multi |
-| webcamera_pl | 52 | Polish webcams | PL |
-| iowa_dot | 50 | Iowa DOT traffic | US |
-| atcs-tasikmalaya | 31 | Indonesia traffic | ID |
-| beachcam_meo | 31 | Portuguese beaches | PT |
-| OpenTrafficCamMap | 31 | Open traffic map | US |
-| nysdot | 23 | New York State DOT | US |
+| Source | Streams | Operator | Licence / basis |
+|--------|--------:|----------|-----------------|
+| caltrans | 1,676 | California DOT | Public domain |
+| vdot | 1,174 | Virginia DOT | Public sector, no terms found |
+| mndot | 973 | Minnesota DOT | Public sector, no terms found |
+| iowa_dot | 543 | Iowa DOT | CC BY 4.0 |
+| mdsha | 404 | Maryland SHA (CHART) | MD iMAP open data |
+| seattle_sdot | 341 | Seattle DOT | Public sector, no terms found |
+| ladotd_511 | 330 | Louisiana DOTD | Public sector, no terms found |
+| deldot | 260 | Delaware DOT | Public sector, no terms found |
+| goakamai_hdot | 247 | Hawaii DOT | Public sector, no terms found |
+| trafficvision | 155 | Thailand Department of Highways | Public sector, no terms found |
+| vegvesen_video | 106 | Statens vegvesen (Norway) | NLOD |
+| tdx_city_cctv | 63 | Keelung City via Taiwan TDX | OGDL-Taiwan 1.0 |
+| hessen_mobil | 8 | Hessen Mobil (Germany) | Public sector, no terms found |
+| 13 Indonesian city families (`atcs-*`, `cctv-*`) | 623 | City transport offices | Public sector, no terms found |
 
-Full per-source metadata (all 67 sources, with active counts) in `sources.json`.
+Full per-source metadata (licence, attribution, terms URL, counts) is in `sources.json`.
+Why each source is in or out: `SOURCES-REVIEW.md`.
 
-## Country coverage (top 24)
+## Country coverage
 
-| Country | Streams | Country | Streams |
-|---------|--------:|---------|--------:|
-| US | 2,210 | MT | 59 |
-| IT | 828 | GB | 37 |
-| TH | 462 | PT | 36 |
-| DE | 290 | PH | 33 |
-| KR | 241 | TW | 31 |
-| ES | 226 | CZ | 28 |
-| GR | 164 | HR | 23 |
-| ID | 220 | FR | 26 |
-| PL | 148 | RO | 26 |
-| TR | 147 | KG | 21 |
-| JP | 129 | NZ | 13 |
-| NO | 74 | IS | 13 |
+| Country | Streams |
+|---------|--------:|
+| US | 5,948 |
+| ID | 623 |
+| TH | 155 |
+| NO | 106 |
+| TW | 63 |
+| DE | 8 |
 
-98 countries total. Recent expansion focused on rain-prone, previously under-covered
-regions: Japan (129), New Zealand, Iceland, Norway, Ireland, SE Asia, and the Pacific Northwest.
+## Attribution
+
+When you republish or display these streams, credit the operator given in each feature's
+`attribution` field. Licences that require it:
+- **Statens vegvesen:** NLOD. Cite Statens vegvesen as the source.
+- **Taiwan TDX / Keelung City Government:** Open Government Data License v1.0. Name the data provider.
+- **Iowa DOT:** CC BY 4.0. Credit the Iowa Department of Transportation.
+- **Maryland:** MD iMAP. Derived data must credit the State of Maryland.
+
+The video belongs to its operators. This dataset lists where to find each public stream;
+it does not grant any right to the footage.
 
 ## Directory structure
 
 ```
-streams.geojson          # Master file (all 5,997 streams)
-sources.json             # Per-source metadata (license, notes, refresh method, active counts)
+streams.geojson          # Master file (all 6,903 streams)
+sources.json             # Per-source metadata (licence, attribution, terms URL, counts)
+SOURCES-REVIEW.md        # Licence/terms finding for every source, included or excluded
 data/                    # Per-country GeoJSON subsets (e.g. data/US.json)
 scripts/
+  export_from_sqlite.py  # Build streams.geojson from a camera SQLite DB, with the publication policy
   validate.py            # Probe stream URLs, update status/last_verified
-  geocode_swc.py         # Fix fallback coordinates for SWC streams
+  geocode_swc.py         # Legacy: SkylineWebcams geocoding (source retired in 4.0.0)
   regenerate_country_files.py  # Rebuild data/ from streams.geojson
   stats.py               # Print dataset statistics
 .github/workflows/
-  validate.yml           # Weekly automated validation
+  validate.yml           # Manual-trigger validation
 ```
 
 ## Known limitations
 
-1. **SkylineWebcams pages (~1,750 streams):** Published as page URLs because their direct
-   HLS manifests use auth tokens that expire within hours. Fetch the page and extract the
-   `m3u8` at play time. Marked `url_type: "html_page"`, `source_url_requires: "token_refresh"`.
-
-2. **YouTube extraction fragility (475 streams):** YouTube Live extraction via yt-dlp
-   breaks periodically — keep yt-dlp current. Some streams rotate video IDs when the
-   broadcaster restarts; prefer resolving from the channel when a watch URL dies.
-
-3. **City-level coordinates (3,614 streams):** Geocoded to the nearest town rather than
-   the exact camera position. Fine for weather lookups (~10 km), not for precise mapping.
-
-4. **`unverified` ≠ dead (1,771 streams):** These simply haven't been probed by the
-   production pipeline yet. Dead and rejected streams are excluded from this dataset entirely.
+1. **Mostly traffic cameras, mostly the US.** 4.0.0 keeps only sources whose terms allow
+   listing them. Scenic networks and the opencctv aggregator were dropped, so Korea, Europe
+   (apart from Norway and Hesse) and most scenic views are gone for now.
+2. **Regional reachability.** Indonesian and Thai feeds are often slow or time out when
+   fetched from North America or Europe, even though they play from the production server.
+3. **`last_verified` can be old.** It is the last validation the production pipeline
+   recorded. Cameras stay in the pool while they keep playing, and not every pass re-stamps
+   the time. 1,308 streams have no recorded timestamp at all.
+4. **Provisional clearances.** Most US DOTs and the Indonesian/Thai agencies publish their
+   feeds without stated terms. They are listed because nothing we found forbids it. If an
+   operator objects, open an issue and the source will be removed.
 
 ## Contributing
 
 To add a new source:
 
-1. Add streams to `streams.geojson` following the schema above — all fields are required (`resolution` may be `null`).
-2. Add source metadata to `sources.json`.
-3. Run `python scripts/regenerate_country_files.py` to update `data/`.
-4. Run `python scripts/stats.py` to verify counts.
-5. Update this README with new totals.
+1. Check the operator's terms and add a row to `SOURCES-REVIEW.md`.
+2. Add streams to `streams.geojson` following the schema above. All fields are required
+   (`resolution` and `last_verified` may be `null`). Never add URLs with tokens or signatures.
+3. Add source metadata to `sources.json`.
+4. Run `python scripts/regenerate_country_files.py` to update `data/`.
+5. Run `python scripts/stats.py` to verify counts.
+6. Update this README with new totals.
 
 <div align="center">
   <code>#dataset</code> <code>#computer-vision</code> <code>#live-weather</code> <code>#machine-learning</code> <code>#webcams</code>

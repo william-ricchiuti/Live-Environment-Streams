@@ -6,51 +6,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.3221,
-          60.3913
+          7.939882,
+          58.141163
         ]
       },
       "properties": {
-        "name": "Bergen Harbor",
-        "url": "https://www.youtube.com/watch?v=9Cqk4Nh0hNw",
-        "display_name": "Bergen Harbor, Norway",
+        "name": "NO - Agder - Fidjane mot Kristiansand (E39)",
+        "url": "https://kamera.vegvesen.no/public/1029002_1/manifest.m3u8",
+        "display_name": "Agder, Norway",
         "country_code": "NO",
-        "environment": "marina",
-        "source_family": "europe_rainy",
-        "quality_tier": "standard",
-        "scene_type": "marina",
-        "url_type": "youtube",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.21665,
-          59.13118
-        ]
-      },
-      "properties": {
-        "name": "Bjerggata - Sandefjord",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/vestfold/sandefjord/harbor-bjerggata.html",
-        "display_name": "Bjerggata, Norway",
-        "country_code": "NO",
-        "environment": "harbor",
-        "source_family": "skylinewebcams",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
         "quality_tier": "high",
-        "scene_type": "harbor",
-        "url_type": "html_page",
-        "resolution": null,
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
         "coordinates_quality": "exact",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
+        "status": "active",
+        "last_verified": "2026-10-27T15:15:50+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -58,337 +33,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          59.91
+          8.059471,
+          58.160896
         ]
       },
       "properties": {
-        "name": "Bodo - Saltstraumen",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/bodo/saltstraumen.html",
-        "display_name": "Bodo, Norway",
+        "name": "NO - Agder - Varoddbrua mot Kristansand (E18)",
+        "url": "https://kamera.vegvesen.no/public/3000858_1/manifest.m3u8",
+        "display_name": "Agder, Norway",
         "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Bryggja Deer Farm",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/western-norway/bryggja/bryggja-deer-farm.html",
-        "display_name": "Bryggja Deer Farm, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Geiranger - Marina",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/sunnmore/geiranger/marina.html",
-        "display_name": "Geiranger, Norway",
-        "country_code": "NO",
-        "environment": "marina",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "marina",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Geiranger Cruise Pier",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/sunnmore/geiranger/geiranger-cruise-pier.html",
-        "display_name": "Geiranger Cruise Pier, Norway",
-        "country_code": "NO",
-        "environment": "coastal",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "beach",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Geirangerfjord Cruise Port",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/sunnmore/geiranger/geirangerfjord-cruise-port.html",
-        "display_name": "Geirangerfjord Cruise Port, Norway",
-        "country_code": "NO",
-        "environment": "marina",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "marina",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Halsnoy",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/western-norway/halsnoy/halsnoy.html",
-        "display_name": "Halsnoy, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.0078,
-          34.0181
-        ]
-      },
-      "properties": {
-        "name": "Hammerfest - Port",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/hammerfest/port.html",
-        "display_name": "Hammerfest, Norway",
-        "country_code": "NO",
-        "environment": "marina",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "marina",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Harstad",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/harstad/harstad.html",
-        "display_name": "Harstad, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Harstad - Grytoya",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/harstad/grytoya.html",
-        "display_name": "Harstad, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Harstad - Port",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/harstad/port.html",
-        "display_name": "Harstad, Norway",
-        "country_code": "NO",
-        "environment": "marina",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "marina",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Hellesylt",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/western-norway/hellesylt/hellesylt.html",
-        "display_name": "Hellesylt, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Jorpeland",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/rogaland/jorpeland/jorpeland.html",
-        "display_name": "Jorpeland, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.04078,
-          59.02251
-        ]
-      },
-      "properties": {
-        "name": "Jørpeland Harbour Webcam - Norway 🎦",
-        "url": "https://www.youtube.com/watch?v=OHqNIOuH9c0",
-        "display_name": "Jørpeland Harbour",
-        "country_code": "NO",
-        "environment": "coastal",
-        "source_family": "worldviewstream",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
         "quality_tier": "high",
-        "scene_type": "beach",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-25 05:48:17",
-        "source_url_requires": null
+        "last_verified": "2026-10-27T00:31:24+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -396,77 +60,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.0328,
-          61.59957
+          10.425091,
+          59.939003
         ]
       },
       "properties": {
-        "name": "Kråkenes Lighthouse - Norway",
-        "url": "https://www.youtube.com/watch?v=FwkM8B3ZiPQ",
-        "display_name": "Kråkenes Lighthouse",
+        "name": "NO - Akershus - Bjørum mot Sandvika (E16)",
+        "url": "https://kamera.vegvesen.no/public/3001091_1/manifest.m3u8",
+        "display_name": "Akershus, Norway",
         "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skyline-youtube",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
         "quality_tier": "high",
-        "scene_type": "city",
-        "url_type": "youtube",
-        "resolution": null,
-        "coordinates_quality": "exact",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.5709,
-          68.2313
-        ]
-      },
-      "properties": {
-        "name": "Lofoten - Hamnoy",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/lofoten/hamnoy.html",
-        "display_name": "Lofoten, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.5709,
-          68.2313
-        ]
-      },
-      "properties": {
-        "name": "Lofoten - Henningsvaer",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/lofoten/henningsvaer.html",
-        "display_name": "Lofoten, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "city",
-        "url_type": "html_page",
-        "resolution": null,
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-17T03:01:07.016317",
-        "source_url_requires": "token_refresh"
+        "last_verified": "2026-10-24T19:38:22+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -474,259 +87,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.5709,
-          68.2313
+          10.97496,
+          59.96208
         ]
       },
       "properties": {
-        "name": "Lofoten - Reine",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/lofoten/reine.html",
-        "display_name": "Lofoten, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.5709,
-          68.2313
-        ]
-      },
-      "properties": {
-        "name": "Lofoten - Sorvagen",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/lofoten/sorvagen.html",
-        "display_name": "Lofoten, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "city",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-17T03:01:07.016317",
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Molde",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/western-norway/molde/molde.html",
-        "display_name": "Molde, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.21023,
-          62.09547
-        ]
-      },
-      "properties": {
-        "name": "NO - Geiranger - Live Geirangerfjord - Geiranger",
-        "url": "https://www.youtube.com/watch?v=yslIWiEjRXw",
-        "display_name": "Geiranger, Norway",
+        "name": "NO - Akershus - Djupdalen mot Skedsmo (E6)",
+        "url": "https://kamera.vegvesen.no/public/0229018_1/manifest.m3u8",
+        "display_name": "Akershus, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 20:33:17",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.62824,
-          62.18681
-        ]
-      },
-      "properties": {
-        "name": "NO - Härjedalens kommun - Backvallen",
-        "url": "https://www.youtube.com/watch?v=7nJGB-ZcSjE",
-        "display_name": "Härjedalens kommun, Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 07:11:12",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.72808,
-          63.11033
-        ]
-      },
-      "properties": {
-        "name": "NO - Molde - Kristiansund Livecam Nordlandet",
-        "url": "https://www.youtube.com/watch?v=OEHJwXVAAoY",
-        "display_name": "Molde, Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 07:54:46",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.91182,
-          62.90722
-        ]
-      },
-      "properties": {
-        "name": "NO - Møre and Romsdal - Bud - Bud Norway Coastal Panorama",
-        "url": "https://www.youtube.com/watch?v=XcftFX_Cwy4",
-        "display_name": "Møre and Romsdal",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 20:38:24",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.73092,
-          63.12095
-        ]
-      },
-      "properties": {
-        "name": "NO - Møre and Romsdal - Kristiansund N - Kristiansund Coastal Panorama",
-        "url": "https://www.youtube.com/watch?v=JJuaHGhd8g8",
-        "display_name": "Møre and Romsdal, Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 07:53:24",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.65051,
-          62.61091
-        ]
-      },
-      "properties": {
-        "name": "NO - Oppdal - Liva Vangslia Oppdal Skisenter",
-        "url": "https://www.youtube.com/watch?v=8pY__JEZ9pU",
-        "display_name": "Oppdal, Norway",
-        "country_code": "NO",
-        "environment": "mountain",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "ski",
-        "url_type": "youtube",
-        "resolution": "854x480",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 07:43:08",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.72799,
-          62.61575
-        ]
-      },
-      "properties": {
-        "name": "NO - Oppdal - Live Stølen Oppdal Skisenter",
-        "url": "https://www.youtube.com/watch?v=skMHko7kXkE",
-        "display_name": "Oppdal, Norway",
-        "country_code": "NO",
-        "environment": "mountain",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "ski",
-        "url_type": "youtube",
+        "url_type": "hls",
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-04-25 19:00:30",
-        "source_url_requires": null
+        "last_verified": "2026-10-25T14:19:12+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -734,25 +114,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.99433,
-          60.82358
+          11.115506,
+          60.167717
         ]
       },
       "properties": {
-        "name": "NO - Rättvik - Webcam Tallbergsgarden Hotel View",
-        "url": "https://www.youtube.com/watch?v=WmQMfElQSVE",
-        "display_name": "Rättvik, Norway",
+        "name": "NO - Akershus - Gardermoen mot Gardermoen (E16)",
+        "url": "https://kamera.vegvesen.no/public/0229019_1/manifest.m3u8",
+        "display_name": "Akershus, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
+        "url_type": "hls",
+        "resolution": "1024x768",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-16 04:33:30",
-        "source_url_requires": null
+        "last_verified": "2026-10-27T18:23:47+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -760,25 +141,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.06202,
-          63.46043
+          10.539927,
+          59.89262
         ]
       },
       "properties": {
-        "name": "NO - Smøla - Smøla Havfiskesenter",
-        "url": "https://www.youtube.com/watch?v=tz5u7zWL8Xo",
-        "display_name": "Smøla, Norway",
+        "name": "NO - Akershus - Sandvika øst mot Drammen (E18)",
+        "url": "https://kamera.vegvesen.no/public/0229009_1/manifest.m3u8",
+        "display_name": "Akershus, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
+        "url_type": "hls",
+        "resolution": "800x450",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-03-05 07:51:05",
-        "source_url_requires": null
+        "last_verified": "2026-10-25T08:22:32+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -786,25 +168,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.09408,
-          62.10151
+          10.725304,
+          59.51764
         ]
       },
       "properties": {
-        "name": "NO - Stryn - Geirangerfjord cruise port, Hellesylt",
-        "url": "https://www.youtube.com/watch?v=S4aJlRY39fo",
-        "display_name": "Stryn, Norway",
+        "name": "NO - Akershus - Sonsveien mot MOT MOSS (E6)",
+        "url": "https://kamera.vegvesen.no/public/0229002_1/manifest.m3u8",
+        "display_name": "Akershus, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
+        "url_type": "hls",
+        "resolution": "800x450",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-03-05 20:35:50",
-        "source_url_requires": null
+        "last_verified": "2026-10-25T13:18:21+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -812,51 +195,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.88724,
-          61.26624
+          8.19875,
+          60.929855
         ]
       },
       "properties": {
-        "name": "NO - Sälen - LIVE – Stöten i Sälen, World-Cup-backen",
-        "url": "https://www.youtube.com/watch?v=soWOVfF5eDg",
-        "display_name": "Sälen, Norway",
+        "name": "NO - Buskerud - Bjøberg bom mot Gol (R52)",
+        "url": "https://kamera.vegvesen.no/public/0629020_2/manifest.m3u8",
+        "display_name": "Buskerud, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
+        "source_family": "vegvesen_video",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-03-05 07:27:16",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.04688,
-          69.72059
-        ]
-      },
-      "properties": {
-        "name": "NO - Troms og Finnmark - Kirkenes - Himmelstigen Scenic Road, Kirkenes",
-        "url": "https://www.youtube.com/watch?v=acJRSLCe6G0",
-        "display_name": "Troms og Finnmark, Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "opencctv",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "youtube",
+        "url_type": "hls",
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-03-05 07:35:29",
-        "source_url_requires": null
+        "last_verified": "2026-10-22T05:09:45+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -864,25 +222,107 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.33253,
-          62.54364
+          8.19875,
+          60.929855
         ]
       },
       "properties": {
-        "name": "NO - Tänndalen - Live Tänndalen",
-        "url": "https://www.youtube.com/watch?v=CEVzMapEG80",
-        "display_name": "Tänndalen, Norway",
+        "name": "NO - Buskerud - Bjøberg bom mot Lærdal (R52)",
+        "url": "https://kamera.vegvesen.no/public/0629020_1/manifest.m3u8",
+        "display_name": "Buskerud, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
+        "source_family": "vegvesen_video",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "youtube",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-25T15:22:16+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.85201,
+          60.51236
+        ]
+      },
+      "properties": {
+        "name": "NO - Buskerud - Haugastøl mot Leiro (R7)",
+        "url": "https://kamera.vegvesen.no/public/0629021_2/manifest.m3u8",
+        "display_name": "Buskerud, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.337579,
+          59.819313
+        ]
+      },
+      "properties": {
+        "name": "NO - Buskerud - Lierskogen mot Oslo (E18)",
+        "url": "https://kamera.vegvesen.no/public/0629001_1/manifest.m3u8",
+        "display_name": "Buskerud, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-25T14:45:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.324268,
+          59.977222
+        ]
+      },
+      "properties": {
+        "name": "NO - Buskerud - Skaret mot Sandvika (E16)",
+        "url": "https://kamera.vegvesen.no/public/3001092_1/manifest.m3u8",
+        "display_name": "Buskerud, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-03-05 07:19:00",
-        "source_url_requires": null
+        "last_verified": "2026-10-22T13:15:37+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -890,25 +330,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.11438,
-          64.06156
+          23.306633,
+          68.75093
         ]
       },
       "properties": {
-        "name": "NO - Valsjöbyn - Rengsfallet, Valsjöbyn – Live",
-        "url": "https://www.youtube.com/watch?v=fz71ucMuO2U",
-        "display_name": "Valsjöbyn, Norway",
+        "name": "NO - Finnmark - Aidejavri mot Finland (E45)",
+        "url": "https://kamera.vegvesen.no/public/3000937_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
+        "source_family": "vegvesen_video",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
+        "url_type": "hls",
+        "resolution": "800x600",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-03-05 06:59:14",
-        "source_url_requires": null
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -916,25 +357,1619 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.11076,
-          61.93035
+          24.10096,
+          70.27835
         ]
       },
       "properties": {
-        "name": "NO - Vestland - Måløy - Måløy Town Centre Panorama",
-        "url": "https://www.youtube.com/watch?v=_h_ICRmlXgg",
+        "name": "NO - Finnmark - Aisaroaivi mot Sennalandet (E6)",
+        "url": "https://kamera.vegvesen.no/public/2000065_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.093607,
+          70.52986
+        ]
+      },
+      "properties": {
+        "name": "NO - Finnmark - Gednje mot Brøytestasjon (F890)",
+        "url": "https://kamera.vegvesen.no/public/2000063_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.71629,
+          70.7998
+        ]
+      },
+      "properties": {
+        "name": "NO - Finnmark - Hopseidet mot Bekkarfjord (F888)",
+        "url": "https://kamera.vegvesen.no/public/3000958_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.30343,
+          70.22452
+        ]
+      },
+      "properties": {
+        "name": "NO - Finnmark - Storfjelltunnelen mot Tunnel øst Nyvoll (F8830)",
+        "url": "https://kamera.vegvesen.no/public/3001093_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.720585,
+          70.07822
+        ]
+      },
+      "properties": {
+        "name": "NO - Finnmark - Vadsø Vest mot Vadsø (E75)",
+        "url": "https://kamera.vegvesen.no/public/3000992_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-26T16:56:03+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.269295,
+          69.933464
+        ]
+      },
+      "properties": {
+        "name": "NO - Finnmark - Øvre Alta Bru 2 mot Mot Alta elva (F7990)",
+        "url": "https://kamera.vegvesen.no/public/3001089_2/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-03T12:50:19+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.263498,
+          69.93213
+        ]
+      },
+      "properties": {
+        "name": "NO - Finnmark - Øvre Alta Bru mot Altaelva (F7990)",
+        "url": "https://kamera.vegvesen.no/public/3001041_1/manifest.m3u8",
+        "display_name": "Finnmark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-02T23:15:23+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.400306,
+          60.85675
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Ebru mot Løten (R3)",
+        "url": "https://kamera.vegvesen.no/public/0429005_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.27307,
+          60.70341
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Kolomoen bru mot Løten (R3)",
+        "url": "https://kamera.vegvesen.no/public/0429022_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.27307,
+          60.70341
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Kolomoen bru mot Tangen (R3)",
+        "url": "https://kamera.vegvesen.no/public/0429022_2/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-22T16:10:23+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.428403,
+          61.206898
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Midtskog mot Øyer (E6)",
+        "url": "https://kamera.vegvesen.no/public/3001113_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.28534,
+          60.81621
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Stabekken mot Romedal (R3)",
+        "url": "https://kamera.vegvesen.no/public/3000445_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.23475,
+          61.204124
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Tyinkrysset mot Vang (E16)",
+        "url": "https://kamera.vegvesen.no/public/3000953_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.102932,
+          60.81079
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Vien mot Brumunddal (E6)",
+        "url": "https://kamera.vegvesen.no/public/0429001_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.442569,
+          61.107994
+        ]
+      },
+      "properties": {
+        "name": "NO - Innlandet - Vingnes mot Lillehammer (E6)",
+        "url": "https://kamera.vegvesen.no/public/0529004_1/manifest.m3u8",
+        "display_name": "Innlandet, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.572805,
+          68.53642
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Bjerkvik sør mot Narvik (E6)",
+        "url": "https://kamera.vegvesen.no/public/3000942_1/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T20:29:55+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.514091,
+          66.738655
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Forøya ferjekai mot Esøya (F17)",
+        "url": "https://kamera.vegvesen.no/public/3001087_1/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.564514,
+          68.47713
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Leirvik mot Trældal (E10)",
+        "url": "https://kamera.vegvesen.no/public/3000886_1/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.544641,
+          68.50187
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Seines mot Bjerkvik (E6)",
+        "url": "https://kamera.vegvesen.no/public/3000885_1/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.871325,
+          68.516235
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Skitdalshøgda mot Riksgrensen (E10)",
+        "url": "https://kamera.vegvesen.no/public/1829016_2/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.655525,
+          68.471596
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Trældal mot Bjørnfjell (E10)",
+        "url": "https://kamera.vegvesen.no/public/3000597_1/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T23:33:40+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.489788,
+          68.474174
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Tømmerbakkmyra mot Narvik (E6)",
+        "url": "https://kamera.vegvesen.no/public/3000893_1/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-20T01:47:50+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.482115,
+          68.46841
+        ]
+      },
+      "properties": {
+        "name": "NO - Nordland - Øyjord mot Bjerkvik (E6)",
+        "url": "https://kamera.vegvesen.no/public/3000066_2/manifest.m3u8",
+        "display_name": "Nordland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.77669,
+          59.841663
+        ]
+      },
+      "properties": {
+        "name": "NO - Oslo - Fiskevollbukta mot Oslo sentrum (E18)",
+        "url": "https://kamera.vegvesen.no/public/0329007_1/manifest.m3u8",
+        "display_name": "Oslo, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-25T16:09:14+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.807426,
+          59.887856
+        ]
+      },
+      "properties": {
+        "name": "NO - Oslo - Sandstuveien (E6)",
+        "url": "https://kamera.vegvesen.no/public/0329031_1/manifest.m3u8",
+        "display_name": "Oslo, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-25T19:18:25+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.726195,
+          59.94821
+        ]
+      },
+      "properties": {
+        "name": "NO - Oslo - Ullevål mot Tåsen (R150)",
+        "url": "https://kamera.vegvesen.no/public/0329034_1/manifest.m3u8",
+        "display_name": "Oslo, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.450403,
+          59.17073
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Arsvågen ferjekai mot Aksdal (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129037_2/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.450403,
+          59.17073
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Arsvågen ferjekai mot ferjekai (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129037_1/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.654279,
+          58.990917
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Finnestad mot Mekjarvik (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129003_1/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.718267,
+          58.88421
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Forus mot Sandnes (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129024_2/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-01T08:52:49+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.718267,
+          58.88421
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Forus mot Stavanger (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129024_1/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-01T08:43:35+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.635277,
+          59.0126
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Harestad mot Stavanger (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129027_2/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.722374,
+          58.95924
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Kiellandsmyra mot Sandnes (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129038_1/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.722374,
+          58.95924
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Kiellandsmyra mot Sentrum (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129038_2/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.591831,
+          59.137184
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Mortavika ferjekai mot Kaien (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129036_1/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.639629,
+          58.89572
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Sømmevågen mot Tananger (R509)",
+        "url": "https://kamera.vegvesen.no/public/1129034_1/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T04:10:01+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.881343,
+          58.765564
+        ]
+      },
+      "properties": {
+        "name": "NO - Rogaland - Vaulekrossen mot Sandnes (E39)",
+        "url": "https://kamera.vegvesen.no/public/1129033_2/manifest.m3u8",
+        "display_name": "Rogaland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.628406,
+          59.175022
+        ]
+      },
+      "properties": {
+        "name": "NO - Telemark - Kjørbekk mot Porsgrunn (R36)",
+        "url": "https://kamera.vegvesen.no/public/3000965_1/manifest.m3u8",
+        "display_name": "Telemark, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-21T13:14:32+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.52122,
+          68.70614
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Blomjoten mot Harstad (R83)",
+        "url": "https://kamera.vegvesen.no/public/3000892_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T14:24:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.986784,
+          69.68012
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Breivika mot Tromsøsundtunnelen (E8)",
+        "url": "https://kamera.vegvesen.no/public/1900098_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-03T17:39:10+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.748327,
+          69.18467
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Didnojohka mot Finland (E8)",
+        "url": "https://kamera.vegvesen.no/public/3001005_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.745132,
+          69.17881
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Gardeborri øvre mot Skibotn (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000996_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-03T02:52:22+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.905396,
+          68.675476
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Gratangsfjellet mot Bjerkvik (E6)",
+        "url": "https://kamera.vegvesen.no/public/1900163_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:38:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5499,
+          68.78229
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Langneset mot Kanebogen (R83)",
+        "url": "https://kamera.vegvesen.no/public/3001078_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.385342,
+          69.313515
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Lullemoen mot Finland (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000153_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.385342,
+          69.313515
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Lullemoen mot Skibotn (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000153_2/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T13:10:35+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.750294,
+          69.16111
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Perskogen mot Skibotn (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000448_2/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.778124,
+          68.67778
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Sandstrand mot Tjeldsundet (F825)",
+        "url": "https://kamera.vegvesen.no/public/3000980_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.565825,
+          68.630486
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Tjeldsundbrua vest mot Harstad (E10)",
+        "url": "https://kamera.vegvesen.no/public/3000988_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T22:34:25+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.592138,
+          68.62693
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Tjeldsundbrua øst mot Evenes (E10)",
+        "url": "https://kamera.vegvesen.no/public/1900184_2/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T19:49:49+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.969225,
+          69.67677
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Tverrforbindelsen øst mot Breivika (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000078_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-03T20:09:58+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.969225,
+          69.67677
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Tverrforbindelsen øst mot Giæverbukta (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000078_2/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-03T18:26:29+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.643028,
+          68.61817
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Øse mot Bjerkvik (E6)",
+        "url": "https://kamera.vegvesen.no/public/1900185_1/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T19:07:57+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.730238,
+          69.19429
+        ]
+      },
+      "properties": {
+        "name": "NO - Troms - Øvre Helligskogen mot Finland (E8)",
+        "url": "https://kamera.vegvesen.no/public/3000158_2/manifest.m3u8",
+        "display_name": "Troms, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.807816,
+          62.87159
+        ]
+      },
+      "properties": {
+        "name": "NO - Trøndelag - Langsvola mot Røros (F705)",
+        "url": "https://kamera.vegvesen.no/public/1629012_1/manifest.m3u8",
+        "display_name": "Trøndelag, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.495702,
+          63.465324
+        ]
+      },
+      "properties": {
+        "name": "NO - Trøndelag - Meådal mot Stjørdal (E14)",
+        "url": "https://kamera.vegvesen.no/public/1729007_1/manifest.m3u8",
+        "display_name": "Trøndelag, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.395216,
+          63.402435
+        ]
+      },
+      "properties": {
+        "name": "NO - Trøndelag - Tempevegen mot Tempe (K7440)",
+        "url": "https://kamera.vegvesen.no/public/3001153_1/manifest.m3u8",
+        "display_name": "Trøndelag, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.37879,
+          59.33084
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestfold - Tveiten mot Drammen (E18)",
+        "url": "https://kamera.vegvesen.no/public/0729007_1/manifest.m3u8",
+        "display_name": "Vestfold, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-25T15:27:17+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.377164,
+          59.374073
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestfold - Undrumsdal mot Drammen (E18)",
+        "url": "https://kamera.vegvesen.no/public/0729008_1/manifest.m3u8",
+        "display_name": "Vestfold, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-21T09:05:22+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.956061,
+          61.073822
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Borlaugkrysset aust mot Lærdal (E16)",
+        "url": "https://kamera.vegvesen.no/public/1429012_1/manifest.m3u8",
         "display_name": "Vestland, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
+        "source_family": "vegvesen_video",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
+        "url_type": "hls",
+        "resolution": "800x600",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-03-05 20:39:28",
-        "source_url_requires": null
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -942,25 +1977,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.98156,
-          60.00184
+          8.032368,
+          61.026703
         ]
       },
       "properties": {
-        "name": "NO - Viken - Slattum - Hauger Golfklubb Fairways Panorama",
-        "url": "https://www.youtube.com/watch?v=wIoKWDNPVlQ",
-        "display_name": "Viken, Norway",
+        "name": "NO - Vestland - Breistølen mot Borlaug (R52)",
+        "url": "https://kamera.vegvesen.no/public/3000007_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "opencctv",
+        "source_family": "vegvesen_video",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "youtube",
+        "url_type": "hls",
+        "resolution": "1280x960",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.884112,
+          61.17497
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Fatlaberget mot Sogndal (R13)",
+        "url": "https://kamera.vegvesen.no/public/1429038_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-16 14:38:04",
-        "source_url_requires": null
+        "last_verified": "2026-10-28T03:16:00+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -968,909 +2031,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          59.91
+          5.339726,
+          60.37364
         ]
       },
       "properties": {
-        "name": "Narvik - Marina",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/narvik/marina.html",
-        "display_name": "Narvik, Norway",
-        "country_code": "NO",
-        "environment": "marina",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "marina",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Narvikfjellet",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/narvik/narvikfjellet.html",
-        "display_name": "Narvikfjellet, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Nordkapp - Honningsvag",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/nordkapp/honningsvag.html",
-        "display_name": "Nordkapp, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4833,
-          60.4167
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen E16 Arnatveit",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1203",
-        "display_name": "Norway",
+        "name": "NO - Vestland - Fjøsangerveien v/BKK mot sentrum (E39)",
+        "url": "https://kamera.vegvesen.no/public/3000061_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
         "country_code": "NO",
         "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4833,
-          60.4167
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen E16 Arnatveit",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1203&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3497,
-          60.3679
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen E39 Danmarksplass",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1201",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3497,
-          60.3679
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen E39 Danmarksplass",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1201&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3325,
-          60.3897
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen E39 Nygårdstangen",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1202",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3325,
-          60.3897
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen E39 Nygårdstangen",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1202&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.35,
-          60.35
-        ]
-      },
-      "properties": {
-        "name": "Norway - Bergen Fv580 Fjøsanger",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1204",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1167,
-          61.1833
-        ]
-      },
-      "properties": {
-        "name": "Norway - Filefjell E16",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=5001",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1167,
-          61.1833
-        ]
-      },
-      "properties": {
-        "name": "Norway - Filefjell E16",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=5001&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5,
-          60.5333
-        ]
-      },
-      "properties": {
-        "name": "Norway - Hardangervidda Rv7",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=5003",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5,
-          60.5333
-        ]
-      },
-      "properties": {
-        "name": "Norway - Hardangervidda Rv7",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=5003&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5667,
-          60.8667
-        ]
-      },
-      "properties": {
-        "name": "Norway - Hemsedalsfjellet E52",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=5002",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5667,
-          60.8667
-        ]
-      },
-      "properties": {
-        "name": "Norway - Hemsedalsfjellet E52",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=5002&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.7178,
-          58.8942
-        ]
-      },
-      "properties": {
-        "name": "Norway - Stavanger E39 Forus",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1101",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.7178,
-          58.8942
-        ]
-      },
-      "properties": {
-        "name": "Norway - Stavanger E39 Forus",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1101&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.7,
-          58.95
-        ]
-      },
-      "properties": {
-        "name": "Norway - Stavanger E39 Tjensvoll",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1102",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9551,
-          69.6489
-        ]
-      },
-      "properties": {
-        "name": "Norway - Tromsø E8",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1901",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9551,
-          69.6489
-        ]
-      },
-      "properties": {
-        "name": "Norway - Tromsø E8",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1901&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.3933,
-          63.4097
-        ]
-      },
-      "properties": {
-        "name": "Norway - Trondheim E6 Sluppen",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1601",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.3933,
-          63.4097
-        ]
-      },
-      "properties": {
-        "name": "Norway - Trondheim E6 Sluppen",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1601&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.1549,
-          62.4722
-        ]
-      },
-      "properties": {
-        "name": "Norway - Ålesund E136",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1501",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.1549,
-          62.4722
-        ]
-      },
-      "properties": {
-        "name": "Norway - Ålesund E136",
-        "url": "https://webkamera.atlas.vegvesen.no/public/kamera?telefonkode=1501&telefonkode2=&telefonkode3=&telefonkode4=",
-        "display_name": "Norway",
-        "country_code": "NO",
-        "environment": "traffic",
-        "source_family": "vegvesen",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Orsta - Hjorundfjorden",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/sunnmore/orsta/hjorundfjorden.html",
-        "display_name": "Orsta, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Rotsund - Northern Lights",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/rotsund/northern-lights.html",
-        "display_name": "Rotsund, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Sandefjord - Harbor Bjerggata",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/vestfold/sandefjord/sandefjord-harbor.html",
-        "display_name": "Sandefjord, Norway",
-        "country_code": "NO",
-        "environment": "harbor",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "harbor",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-17T03:01:07.016317",
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Senja - Silsand",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/senja/silsand.html",
-        "display_name": "Senja, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "city",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-17T03:01:07.016317",
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Skarsvag North Cape",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/skarsvag/skarsvag-north-cape.html",
-        "display_name": "Skarsvag North Cape, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Smola",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/western-norway/smola/smola.html",
-        "display_name": "Smola, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Sor Varanger - Kirkenes",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/sor-varanger/kirkenes.html",
-        "display_name": "Sor Varanger, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.7097,
-          59.79415
-        ]
-      },
-      "properties": {
-        "name": "Sæbøvik Village Webcam - Norway 🎦",
-        "url": "https://www.youtube.com/watch?v=G84oDxGqoPQ",
-        "display_name": "Sæbøvik Village",
-        "country_code": "NO",
-        "environment": "nature",
-        "source_family": "worldviewstream",
+        "source_family": "vegvesen_video",
         "quality_tier": "high",
-        "scene_type": "nature",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-25 06:04:47",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.32397,
-          60.39299
-        ]
-      },
-      "properties": {
-        "name": "Torgallmenningen Square",
-        "url": "https://stream1.vossaskyen.no/bt/Torgallmenningen.stream/chunklist_w320945590.m3u8",
-        "display_name": "Torgallmenningen Square, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "camguide",
-        "quality_tier": "high",
-        "scene_type": "city",
+        "scene_type": "traffic",
         "url_type": "hls",
-        "resolution": null,
-        "coordinates_quality": "exact",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.75,
-          59.91
-        ]
-      },
-      "properties": {
-        "name": "Tromso",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/northern-norway/tromso/tromso.html",
-        "display_name": "Tromso, Norway",
-        "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "city",
-        "url_type": "html_page",
-        "resolution": null,
+        "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-17T03:01:07.016317",
-        "source_url_requires": "token_refresh"
+        "last_verified": "2026-11-01T06:28:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -1878,25 +2058,80 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.9553,
-          69.6492
+          5.338359,
+          60.352905
         ]
       },
       "properties": {
-        "name": "Tromsø Northern Lights",
-        "url": "https://www.youtube.com/watch?v=7xH7eGFuSYU",
-        "display_name": "Tromsø Northern Lights, Norway",
+        "name": "NO - Vestland - Fjøsangerveien v/bom mot sentrum (E39)",
+        "url": "https://kamera.vegvesen.no/public/1229029_2/manifest.m3u8",
+        "display_name": "Vestland, Norway",
         "country_code": "NO",
-        "environment": "nature",
-        "source_family": "europe_rainy",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-29T20:34:47+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.889532,
+          61.44622
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Førde v/Brulandsvegen mot Skei (E39)",
+        "url": "https://kamera.vegvesen.no/public/1429025_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-31T15:53:07+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.880384,
+          61.448044
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Førde v/Hafstad mot sentrum (E39)",
+        "url": "https://kamera.vegvesen.no/public/1429024_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
         "quality_tier": "standard",
-        "scene_type": "urban_panorama",
-        "url_type": "youtube",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": null
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-31T20:32:11+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     },
     {
@@ -1904,25 +2139,728 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.75,
-          59.91
+          8.012723,
+          61.102116
         ]
       },
       "properties": {
-        "name": "Tysfjord",
-        "url": "https://www.skylinewebcams.com/en/webcam/norge/nordland/tysfjord/tysfjord.html",
-        "display_name": "Tysfjord, Norway",
+        "name": "NO - Vestland - Honing bru mot Fagernes (E16)",
+        "url": "https://kamera.vegvesen.no/public/1429016_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
         "country_code": "NO",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.460863,
+          60.42136
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Indre Arna mot Arnanipatunnell (E16)",
+        "url": "https://kamera.vegvesen.no/public/1229030_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T15:09:53+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.209588,
+          61.201843
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Kaupanger mot Mannheller (R5)",
+        "url": "https://kamera.vegvesen.no/public/1429034_2/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-29T01:08:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.209588,
+          61.201843
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Kaupanger mot Sogndal (R5)",
+        "url": "https://kamera.vegvesen.no/public/1429034_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-29T12:53:26+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.574166,
+          59.925064
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Kløvet mot Røldal (E134)",
+        "url": "https://kamera.vegvesen.no/public/1229022_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T19:53:17+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.056487,
+          60.37778
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Knappskog mot Kolltveit (F561)",
+        "url": "https://kamera.vegvesen.no/public/3001079_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-26T03:41:26+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.327244,
+          60.297375
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Lagunen mot Flesland (R580)",
+        "url": "https://kamera.vegvesen.no/public/1229009_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x768",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-29T19:12:57+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.327244,
+          60.297375
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Lagunen mot sentrum (R580)",
+        "url": "https://kamera.vegvesen.no/public/1229009_2/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x768",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-26T07:27:32+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.583271,
+          59.94866
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Låtefoss mot Kløvet (R13)",
+        "url": "https://kamera.vegvesen.no/public/1229002_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x768",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T18:18:28+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.336778,
+          61.160374
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Mannheller ferjekai mot Sogndal (R5)",
+        "url": "https://kamera.vegvesen.no/public/1429028_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x768",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T15:28:44+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.982517,
+          59.84023
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Midtlæger mot Røldal (E134)",
+        "url": "https://kamera.vegvesen.no/public/1229047_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T03:17:48+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.121845,
+          61.929146
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Måløybrua mot Nordfjordeid (R15)",
+        "url": "https://kamera.vegvesen.no/public/3000064_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.723663,
+          60.84415
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Nærøydalen mot Aurland (E16)",
+        "url": "https://kamera.vegvesen.no/public/3000005_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T01:32:48+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.534416,
+          60.428753
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Osterøybrua mot XE16 (F566)",
+        "url": "https://kamera.vegvesen.no/public/3001083_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T14:26:26+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.695648,
+          59.86087
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Røldalstunnelen vest mot Røldal (E134)",
+        "url": "https://kamera.vegvesen.no/public/1229024_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T23:04:27+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.287854,
+          61.38995
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Røneidsberget mot Gaupne (F55)",
+        "url": "https://kamera.vegvesen.no/public/3000079_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-27T23:31:40+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.155559,
+          60.371918
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Sotrabrua vest mot Bergen (R555)",
+        "url": "https://kamera.vegvesen.no/public/1229038_2/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T12:41:26+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.625304,
+          60.42455
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Trengereid mot Bergen (E16)",
+        "url": "https://kamera.vegvesen.no/public/3000806_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T20:04:10+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.625304,
+          60.42455
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Trengereid mot Voss (E16)",
+        "url": "https://kamera.vegvesen.no/public/3000806_2/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T13:25:11+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.024602,
+          61.25019
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Tylden mot Sogndal (R5)",
+        "url": "https://kamera.vegvesen.no/public/3000164_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.504249,
+          61.767117
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Utvikfjellet mot Stryn (F60)",
+        "url": "https://kamera.vegvesen.no/public/1429037_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-28T02:59:17+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.500896,
+          60.968834
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Vikafjellet mot Vinje (R13)",
+        "url": "https://kamera.vegvesen.no/public/1429019_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.347573,
+          60.47682
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Vågsbotn mot Arna (E39)",
+        "url": "https://kamera.vegvesen.no/public/1229013_2/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.347573,
+          60.47682
+        ]
+      },
+      "properties": {
+        "name": "NO - Vestland - Vågsbotn mot Bergen (E39)",
+        "url": "https://kamera.vegvesen.no/public/1229013_1/manifest.m3u8",
+        "display_name": "Vestland, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-29T04:48:47+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.207491,
+          59.178253
+        ]
+      },
+      "properties": {
+        "name": "NO - Østfold - Ingedal mot Sarpsborg (E6)",
+        "url": "https://kamera.vegvesen.no/public/3001013_1/manifest.m3u8",
+        "display_name": "Østfold, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-26T00:50:39+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.896918,
+          59.35029
+        ]
+      },
+      "properties": {
+        "name": "NO - Østfold - Karlshus mot Svinesund (E6)",
+        "url": "https://kamera.vegvesen.no/public/0129003_1/manifest.m3u8",
+        "display_name": "Østfold, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "high",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "1024x576",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-31T07:08:22+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.745612,
+          59.484814
+        ]
+      },
+      "properties": {
+        "name": "NO - Østfold - Ørje grense mot Ørje (E18)",
+        "url": "https://kamera.vegvesen.no/public/3000995_1/manifest.m3u8",
+        "display_name": "Østfold, Norway",
+        "country_code": "NO",
+        "environment": "traffic",
+        "source_family": "vegvesen_video",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "hls",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-19T06:43:31+00:00",
+        "source_url_requires": null,
+        "attribution": "Statens vegvesen (NLOD)"
       }
     }
   ]

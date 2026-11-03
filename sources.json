@@ -1,777 +1,418 @@
 {
-  "skylinewebcams": {
-    "full_name": "Skyline Webcams",
-    "country": "multi",
-    "license_type": "fair_use",
-    "url_types": [
-      "html_page"
-    ],
-    "refresh_method": "token_auth",
-    "website": "https://www.skylinewebcams.com",
-    "stream_count": 1684,
-    "notes": "Page URLs only — direct HLS URLs use expiring auth tokens and are intentionally not published. Extract the m3u8 from the page at fetch time.",
-    "active_count": 1284
-  },
-  "vdot": {
-    "full_name": "Virginia Department of Transportation",
+  "caltrans": {
+    "full_name": "California Department of Transportation (Caltrans)",
     "country": "US",
     "license_type": "public_domain",
+    "license": "Caltrans Conditions of Use (public domain)",
+    "attribution": "Caltrans (California Department of Transportation)",
     "url_types": [
       "hls"
     ],
     "refresh_method": "static",
-    "website": "https://www.511virginia.org",
-    "stream_count": 1168,
-    "notes": "Reliable public feeds. 100% unique coordinates. Primary US traffic source.",
-    "active_count": 1168
+    "website": "https://cwwp2.dot.ca.gov",
+    "terms_url": "https://dot.ca.gov/conditions-of-use",
+    "stream_count": 1676,
+    "active_count": 1676,
+    "notes": "CCTV streams from Caltrans CWWP2. Includes rows previously labelled Caltrans_D01..D12 and OpenTrafficCamMap."
   },
-  "opencctv": {
-    "full_name": "OpenCCTV Public Feed Aggregator",
-    "country": "multi",
-    "license_type": "open_data",
+  "vdot": {
+    "full_name": "Virginia Department of Transportation",
+    "country": "US",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "VDOT (Virginia Department of Transportation)",
     "url_types": [
-      "hls",
-      "html_page",
-      "youtube"
+      "hls"
     ],
     "refresh_method": "static",
-    "website": "https://opencctv.com",
-    "stream_count": 746,
-    "notes": "Aggregated public CCTV feeds from various countries.",
-    "active_count": 668
+    "website": "https://511.vdot.virginia.gov",
+    "terms_url": "https://511.vdot.virginia.gov",
+    "stream_count": 1174,
+    "active_count": 1174,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Credit VDOT."
+  },
+  "mndot": {
+    "full_name": "Minnesota Department of Transportation",
+    "country": "US",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "MnDOT (Minnesota Department of Transportation)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": "https://511mn.org",
+    "terms_url": "https://511mn.org",
+    "stream_count": 973,
+    "active_count": 973,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md)."
+  },
+  "iowa_dot": {
+    "full_name": "Iowa Department of Transportation",
+    "country": "US",
+    "license_type": "cc_by_4.0",
+    "license": "CC BY 4.0 (Iowa DOT open-data cameras dataset)",
+    "attribution": "Iowa Department of Transportation",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": "https://www.511ia.org",
+    "terms_url": "https://iowadot.gov/policies-statements/terms-use",
+    "stream_count": 543,
+    "active_count": 543,
+    "notes": "Use under the open-data dataset licence; the website itself has separate terms."
   },
   "mdsha": {
-    "full_name": "Maryland State Highway Administration",
+    "full_name": "Maryland DOT State Highway Administration (CHART)",
     "country": "US",
-    "license_type": "public_domain",
+    "license_type": "open_data",
+    "license": "MD iMAP open data: free redistribution, credit the State of Maryland",
+    "attribution": "State of Maryland (MDOT SHA CHART)",
     "url_types": [
       "hls"
     ],
     "refresh_method": "static",
     "website": "https://chart.maryland.gov",
+    "terms_url": "https://catalog.data.gov/dataset/md-imap-maryland-traffic-cameras-traffic-cameras",
     "stream_count": 404,
-    "notes": "Reliable public feeds. 100% unique coordinates.",
-    "active_count": 404
+    "active_count": 404,
+    "notes": "Derived data must credit the State of Maryland."
+  },
+  "seattle_sdot": {
+    "full_name": "Seattle Department of Transportation",
+    "country": "US",
+    "license_type": "public_sector_unspecified",
+    "license": "City open-data layer, licence not specified",
+    "attribution": "City of Seattle Department of Transportation",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": "https://web.seattle.gov/travelers/",
+    "terms_url": "https://data.seattle.gov",
+    "stream_count": 341,
+    "active_count": 341,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md)."
+  },
+  "ladotd_511": {
+    "full_name": "Louisiana Department of Transportation and Development (511LA)",
+    "country": "US",
+    "license_type": "public_sector_unspecified",
+    "license": "none found (disclaimer covers accuracy only)",
+    "attribution": "Louisiana DOTD (511LA)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": "https://www.511la.org",
+    "terms_url": "https://511la.org/about/disclaimer",
+    "stream_count": 330,
+    "active_count": 330,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Includes rows previously labelled ladot, ladot_probe and Louisiana_DOT."
   },
   "deldot": {
     "full_name": "Delaware Department of Transportation",
     "country": "US",
-    "license_type": "public_domain",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "DelDOT (Delaware Department of Transportation)",
     "url_types": [
       "hls"
     ],
     "refresh_method": "static",
     "website": "https://deldot.gov",
-    "stream_count": 261,
-    "notes": "Reliable public feeds. 100% unique coordinates.",
-    "active_count": 0
+    "terms_url": "https://deldot.gov",
+    "stream_count": 260,
+    "active_count": 260,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md)."
   },
-  "autobahn_nrw": {
-    "full_name": "Autobahn NRW Traffic Cameras",
-    "country": "DE",
-    "license_type": "public_domain",
+  "goakamai_hdot": {
+    "full_name": "Hawaii Department of Transportation (GoAkamai)",
+    "country": "US",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Hawaii Department of Transportation (GoAkamai)",
     "url_types": [
-      "hls",
-      "html_page"
+      "hls"
     ],
     "refresh_method": "static",
-    "website": "https://www.verkehr.nrw",
-    "stream_count": 252,
-    "notes": "German autobahn cameras. 58% unique coordinates — multiple cameras share interchange-level coords.",
-    "active_count": 1
+    "website": "https://goakamai.org",
+    "terms_url": "https://hidot.hawaii.gov",
+    "stream_count": 247,
+    "active_count": 247,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md)."
   },
   "trafficvision": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 245,
-    "active_count": 0,
-    "full_name": "trafficvision",
+    "full_name": "Thailand Department of Highways",
     "country": "TH",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "manual": {
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Department of Highways, Thailand",
     "url_types": [
       "hls"
-    ],
-    "stream_count": 224,
-    "active_count": 224,
-    "full_name": "manual",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "skyline-youtube": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 167,
-    "active_count": 13,
-    "full_name": "skyline-youtube",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "itic": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 88,
-    "active_count": 0,
-    "full_name": "itic",
-    "country": "TH",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube": {
-    "full_name": "YouTube Live Streams",
-    "country": "multi",
-    "license_type": "fair_use",
-    "url_types": [
-      "youtube"
     ],
     "refresh_method": "static",
-    "website": "https://www.youtube.com",
-    "stream_count": 86,
-    "notes": "YouTube Live watch URLs. Use yt-dlp to extract HLS manifest.",
-    "active_count": 67
+    "website": "https://www.highwaytraffic.go.th",
+    "terms_url": "https://www.highwaytraffic.go.th",
+    "stream_count": 155,
+    "active_count": 155,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Asia."
   },
-  "worldviewstream": {
-    "url_types": [
-      "hls",
-      "youtube"
-    ],
-    "stream_count": 82,
-    "active_count": 79,
-    "full_name": "worldviewstream",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "balticlivecam": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 64,
-    "active_count": 45,
-    "full_name": "balticlivecam",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "camguide": {
-    "url_types": [
-      "hls",
-      "youtube"
-    ],
-    "stream_count": 53,
-    "active_count": 26,
-    "full_name": "camguide",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "webcamera_pl": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 52,
-    "active_count": 47,
-    "full_name": "webcamera_pl",
-    "country": "PL",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "iowa_dot": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 50,
-    "active_count": 50,
-    "full_name": "iowa_dot",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "atcs-tasikmalaya": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 31,
-    "active_count": 0,
-    "full_name": "atcs-tasikmalaya",
+  "atcs-denpasar": {
+    "full_name": "Denpasar city transport office (Dinas Perhubungan), Indonesia",
     "country": "ID",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "beachcam_meo": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 31,
-    "active_count": 31,
-    "full_name": "beachcam_meo",
-    "country": "PT",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "OpenTrafficCamMap": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 31,
-    "active_count": 31,
-    "full_name": "OpenTrafficCamMap",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "nysdot": {
-    "full_name": "New York State Department of Transportation",
-    "country": "US",
-    "license_type": "public_domain",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Denpasar (Indonesia)",
     "url_types": [
       "hls"
     ],
     "refresh_method": "static",
-    "website": "https://511ny.org",
-    "stream_count": 23,
-    "notes": "Reliable public feeds. 100% unique coordinates.",
-    "active_count": 0
+    "website": null,
+    "terms_url": null,
+    "stream_count": 153,
+    "active_count": 153,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
   },
-  "vegvesen": {
-    "full_name": "Norwegian Public Roads Administration",
+  "vegvesen_video": {
+    "full_name": "Statens vegvesen (Norwegian Public Roads Administration)",
     "country": "NO",
-    "license_type": "public_domain",
+    "license_type": "open_data",
+    "license": "NLOD (Norwegian Licence for Open Government Data)",
+    "attribution": "Statens vegvesen (NLOD)",
     "url_types": [
-      "html_page"
+      "hls"
     ],
     "refresh_method": "static",
     "website": "https://www.vegvesen.no",
-    "stream_count": 22,
-    "notes": "Norwegian road cameras. 55% unique coordinates. HTTP image endpoints, not video streams.",
-    "active_count": 0
+    "terms_url": "https://dataut.vegvesen.no/en/dataset/webkamera",
+    "stream_count": 106,
+    "active_count": 106,
+    "notes": "Cite Statens vegvesen as the source."
   },
-  "ktict": {
-    "full_name": "Korea Transport Institute Traffic Cameras",
-    "country": "KR",
-    "license_type": "public_domain",
+  "cctv-jogjakota": {
+    "full_name": "Kota Yogyakarta city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Kota Yogyakarta (Indonesia)",
     "url_types": [
-      "html_page"
+      "hls"
     ],
     "refresh_method": "static",
-    "website": "https://www.ktict.co.kr",
-    "stream_count": 20,
-    "notes": "Korean traffic cameras.",
-    "active_count": 0
+    "website": null,
+    "terms_url": null,
+    "stream_count": 87,
+    "active_count": 87,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
   },
-  "jazbaz": {
+  "atcs-pekanbaru": {
+    "full_name": "Pekanbaru city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Pekanbaru (Indonesia)",
     "url_types": [
-      "youtube"
+      "hls"
     ],
-    "stream_count": 19,
-    "active_count": 0,
-    "full_name": "jazbaz",
-    "country": "PH",
-    "license_type": "fair_use",
-    "refresh_method": "static"
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 75,
+    "active_count": 75,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
   },
-  "taiwan_freeway": {
-    "full_name": "Taiwan Freeway Bureau",
+  "tdx_city_cctv": {
+    "full_name": "Keelung City Government via Taiwan TDX",
     "country": "TW",
-    "license_type": "public_domain",
+    "license_type": "open_data",
+    "license": "Open Government Data License v1.0 (Taiwan)",
+    "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)",
     "url_types": [
-      "html_page"
+      "mjpeg"
     ],
     "refresh_method": "static",
-    "website": "https://www.freeway.gov.tw",
+    "website": "https://tdx.transportdata.tw",
+    "terms_url": "https://data.gov.tw/en/datasets/161157",
+    "stream_count": 63,
+    "active_count": 63,
+    "notes": "MJPEG streams (url_type mjpeg). Licence as listed for TDX datasets on data.gov.tw."
+  },
+  "atcs-cianjur": {
+    "full_name": "Cianjur city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Cianjur (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 56,
+    "active_count": 56,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "cctv-magelang": {
+    "full_name": "Magelang city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Magelang (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 45,
+    "active_count": 45,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "cctv-wonosobo": {
+    "full_name": "Wonosobo city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Wonosobo (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 41,
+    "active_count": 41,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "atcs-bandung": {
+    "full_name": "Bandung city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Bandung (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 36,
+    "active_count": 36,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "cctv-salatiga": {
+    "full_name": "Salatiga city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Salatiga (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 36,
+    "active_count": 36,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "atcs-palembang": {
+    "full_name": "Palembang city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Palembang (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 31,
+    "active_count": 31,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "cctv-kebumen": {
+    "full_name": "Kebumen city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Kebumen (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
+    "stream_count": 24,
+    "active_count": 24,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
+  },
+  "cctv-cirebon": {
+    "full_name": "Cirebon city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Cirebon (Indonesia)",
+    "url_types": [
+      "hls"
+    ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
     "stream_count": 18,
-    "notes": "Taiwan highway cameras. Multiple CCTV server endpoints.",
-    "active_count": 0
+    "active_count": 18,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
   },
-  "ladot_probe": {
+  "atcs-tasikmalaya": {
+    "full_name": "Tasikmalaya city transport office (Dinas Perhubungan), Indonesia",
+    "country": "ID",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Tasikmalaya (Indonesia)",
     "url_types": [
       "hls"
     ],
+    "refresh_method": "static",
+    "website": null,
+    "terms_url": null,
     "stream_count": 14,
-    "active_count": 0,
-    "full_name": "ladot_probe",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
+    "active_count": 14,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
   },
-  "resortcams": {
+  "hessen_mobil": {
+    "full_name": "Hessen Mobil (Hesse road authority)",
+    "country": "DE",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Hessen Mobil",
     "url_types": [
-      "hls"
-    ],
-    "stream_count": 12,
-    "active_count": 8,
-    "full_name": "resortcams",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "wetmet-poconos": {
-    "url_types": [
-      "html_page"
-    ],
-    "stream_count": 11,
-    "active_count": 10,
-    "full_name": "wetmet-poconos",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "europe_rainy": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 10,
-    "active_count": 0,
-    "full_name": "europe_rainy",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube_discovery": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 10,
-    "active_count": 10,
-    "full_name": "youtube_discovery",
-    "country": "XX",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "sitemap_webcam_pool": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 9,
-    "active_count": 9,
-    "full_name": "sitemap_webcam_pool",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "ladot": {
-    "full_name": "Los Angeles Department of Transportation",
-    "country": "US",
-    "license_type": "public_domain",
-    "url_types": [
-      "hls"
+      "mp4"
     ],
     "refresh_method": "static",
-    "website": "https://www.ladot.lacity.org",
-    "stream_count": 9,
-    "notes": "LA traffic cameras. 100% unique coordinates.",
-    "active_count": 0
-  },
-  "vdotcameras": {
-    "full_name": "VDOT Secondary Camera Feeds",
-    "country": "US",
-    "license_type": "public_domain",
-    "url_types": [
-      "hls"
-    ],
-    "refresh_method": "static",
-    "website": "https://www.511virginia.org",
+    "website": "https://www.verkehrsservice.hessen.de",
+    "terms_url": "https://www.verkehrsservice.hessen.de",
     "stream_count": 8,
-    "notes": "Secondary VDOT feeds, separate endpoint from primary vdot source.",
-    "active_count": 0
+    "active_count": 8,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Short MP4 clips refreshed by the operator (url_type mp4). Previously mislabelled autobahn_nrw."
   },
-  "paspro": {
-    "full_name": "PasPro Traffic Cameras",
+  "cctv-padang": {
+    "full_name": "Padang city transport office (Dinas Perhubungan), Indonesia",
     "country": "ID",
-    "license_type": "unknown",
+    "license_type": "public_sector_unspecified",
+    "license": "none found",
+    "attribution": "Dinas Perhubungan Padang (Indonesia)",
     "url_types": [
       "hls"
     ],
     "refresh_method": "static",
     "website": null,
+    "terms_url": null,
     "stream_count": 7,
-    "notes": "Indonesian traffic cameras.",
-    "active_count": 0
-  },
-  "youtube_scenic": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 7,
-    "active_count": 0,
-    "full_name": "youtube_scenic",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "iticfoundation": {
-    "full_name": "ITIC Foundation Cameras",
-    "country": "TH",
-    "license_type": "public_domain",
-    "url_types": [
-      "hls"
-    ],
-    "refresh_method": "static",
-    "website": "https://www.iticfoundation.org",
-    "stream_count": 7,
-    "notes": "Thai traffic and environment cameras.",
-    "active_count": 0
-  },
-  "us_states": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 6,
-    "active_count": 0,
-    "full_name": "us_states",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "Louisiana_DOT": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 6,
-    "active_count": 6,
-    "full_name": "Louisiana_DOT",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "osm_webcam_pages": {
-    "url_types": [
-      "hls",
-      "html_page"
-    ],
-    "stream_count": 5,
-    "active_count": 5,
-    "full_name": "osm_webcam_pages",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "worldviewstream-youtube": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 4,
-    "active_count": 4,
-    "full_name": "worldviewstream-youtube",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "openwebcamdb-youtube": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 4,
-    "active_count": 4,
-    "full_name": "openwebcamdb-youtube",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-live-search-3": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 4,
-    "active_count": 4,
-    "full_name": "youtube-live-search-3",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "camguide-ipcamlive": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 4,
-    "active_count": 3,
-    "full_name": "camguide-ipcamlive",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-ph-edge-babor": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 4,
-    "active_count": 0,
-    "full_name": "youtube-ph-edge-babor",
-    "country": "PH",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-ph-maria-deseo": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 4,
-    "active_count": 0,
-    "full_name": "youtube-ph-maria-deseo",
-    "country": "PH",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-miami-harbor": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 3,
-    "active_count": 3,
-    "full_name": "youtube-miami-harbor",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "ipcamlive-ocean-city-md": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 3,
-    "active_count": 3,
-    "full_name": "ipcamlive-ocean-city-md",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "worldviewstream-direct-hls": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 2,
-    "active_count": 2,
-    "full_name": "worldviewstream-direct-hls",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "ipcamlive-worldviewstream": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 2,
-    "active_count": 2,
-    "full_name": "ipcamlive-worldviewstream",
-    "country": "multi",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "livecam_asia_youtube": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 2,
-    "active_count": 1,
-    "full_name": "livecam_asia_youtube",
-    "country": "JP",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "brownrice-visitdebeaches": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 2,
-    "active_count": 1,
-    "full_name": "brownrice-visitdebeaches",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-live-search-4": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "youtube-live-search-4",
-    "country": "BL",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "brownrice": {
-    "full_name": "Brown Rice Internet Japan",
-    "country": "JP",
-    "license_type": "unknown",
-    "url_types": [
-      "hls"
-    ],
-    "refresh_method": "static",
-    "website": null,
-    "stream_count": 1,
-    "notes": "Single Japanese stream.",
-    "active_count": 1
-  },
-  "ipcamlive-crwebcams": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "ipcamlive-crwebcams",
-    "country": "CR",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-showme-caribbean": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "youtube-showme-caribbean",
-    "country": "CW",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "wikaserangpanimbang": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 0,
-    "full_name": "wikaserangpanimbang",
-    "country": "ID",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "margaharjaya": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 0,
-    "full_name": "margaharjaya",
-    "country": "ID",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-kominfo-gunungkidul": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "youtube-kominfo-gunungkidul",
-    "country": "ID",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "jogjaprov": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "jogjaprov",
-    "country": "ID",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "india_discovery": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "india_discovery",
-    "country": "IN",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "japan_discovery": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "japan_discovery",
-    "country": "JP",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-ph-benjie": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 0,
-    "full_name": "youtube-ph-benjie",
-    "country": "PH",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "ipcamlive-midatlantic-gap": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "ipcamlive-midatlantic-gap",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "rtsp.me": {
-    "url_types": [
-      "html_page"
-    ],
-    "stream_count": 1,
-    "active_count": 0,
-    "full_name": "rtsp.me",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "wral": {
-    "url_types": [
-      "hls"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "wral",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-live-search": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "youtube-live-search",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-waikiki-aquarium": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "youtube-waikiki-aquarium",
-    "country": "US",
-    "license_type": "fair_use",
-    "refresh_method": "static"
-  },
-  "youtube-live-search-2": {
-    "url_types": [
-      "youtube"
-    ],
-    "stream_count": 1,
-    "active_count": 1,
-    "full_name": "youtube-live-search-2",
-    "country": "VG",
-    "license_type": "fair_use",
-    "refresh_method": "static"
+    "active_count": 7,
+    "notes": "Public-sector feed published for the public; no reuse terms found (provisional clearance, see SOURCES-REVIEW.md). Feeds can be slow or unreachable from outside Indonesia."
   }
 }

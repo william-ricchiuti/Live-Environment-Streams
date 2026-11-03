@@ -6,155 +6,269 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.29286,
-          22.95531
+          121.74832,
+          25.13004
         ]
       },
       "properties": {
-        "name": "Jinzun Harbor Coastal Views",
-        "url": "https://www.youtube.com/watch?v=q3KJt-SZc2s",
-        "display_name": "Jinzun Harbor Coastal Views, Taiwan",
-        "country_code": "TW",
-        "environment": "coastal",
-        "source_family": "openwebcamdb-youtube",
-        "quality_tier": "premium",
-        "scene_type": "beach",
-        "url_type": "youtube",
-        "resolution": null,
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-18 06:18:53",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.29696,
-          24.99368
-        ]
-      },
-      "properties": {
-        "name": "Lala Mountain Nature Reserve Webcam - Taiwan 🎦",
-        "url": "https://www.youtube.com/watch?v=YkIUZjVlhv4",
-        "display_name": "Lala Mountain Nature Reserve",
-        "country_code": "TW",
-        "environment": "nature",
-        "source_family": "worldviewstream",
-        "quality_tier": "high",
-        "scene_type": "nature",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-29 03:39:27",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0,
-          24.0
-        ]
-      },
-      "properties": {
-        "name": "Nanfangao Fishing Port Webcam - Taiwan 🎦",
-        "url": "https://www.youtube.com/watch?v=_u7baK7ct2M",
-        "display_name": "Nanfangao Fishing Port",
-        "country_code": "TW",
-        "environment": "harbor",
-        "source_family": "worldviewstream",
-        "quality_tier": "high",
-        "scene_type": "harbor",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-25 05:51:55",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.52639,
-          25.05306
-        ]
-      },
-      "properties": {
-        "name": "Neihu Road Webcam - Taiwan 🎦",
-        "url": "https://www.youtube.com/watch?v=SfPJLSMuCQE",
-        "display_name": "Neihu Road",
-        "country_code": "TW",
-        "environment": "nature",
-        "source_family": "worldviewstream",
-        "quality_tier": "high",
-        "scene_type": "nature",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-25 06:03:20",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.0,
-          24.0
-        ]
-      },
-      "properties": {
-        "name": "Shitiping Rocky Coast Webcam - Taiwan 🎦",
-        "url": "https://www.youtube.com/watch?v=mXnigLvIL0Q",
-        "display_name": "Shitiping Rocky Coast",
-        "country_code": "TW",
-        "environment": "coastal",
-        "source_family": "worldviewstream",
-        "quality_tier": "high",
-        "scene_type": "beach",
-        "url_type": "youtube",
-        "resolution": "1920x1080",
-        "coordinates_quality": "exact",
-        "status": "active",
-        "last_verified": "2026-05-25 05:46:55",
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5109,
-          23.998
-        ]
-      },
-      "properties": {
-        "name": "TW - Changhua - 國道一號 206K+000 北向 埔鹽系統交流道到彰化交流道",
-        "url": "https://cctvc.freeway.gov.tw/abs2mjpg/bmjpg?camera=505",
-        "display_name": "Changhua, Taiwan",
+        "name": "TW - Keelung - 102 信二路 義四路 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/5dc09fe8",
+        "display_name": "Keelung, Taiwan",
         "country_code": "TW",
         "environment": "traffic",
-        "source_family": "opencctv",
+        "source_family": "tdx_city_cctv",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "html_page",
+        "url_type": "mjpeg",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77824,
+          25.12809
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 102 台62甲 孝東路(東) (W)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/86dd979f",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77698,
+          25.12811
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 102 台62甲 孝東路(西) (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/e34dd3c2",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73828,
+          25.13235
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中山一路 中山一路 忠一路 (SW)",
+        "url": "https://cctv.klcg.gov.tw/4e6b2984",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74092,
+          25.13602
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中山一路 中山一路 港西街 (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/a6897937",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73949,
+          25.13424
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中山一路 中山一路 港西高架 (SW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/a1951422",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73888,
+          25.14474
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中山二路 中山二路 海三廠 (S)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/f40905ec",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74063,
+          25.13803
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中山二路 中山二路36巷 (S)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/a22c3d9d",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74341,
+          25.13135
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中正路 中正路 信一路 (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/55c38316",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74808,
+          25.13699
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 中正路 中正路 義一路 (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/fe7f8d20",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
         "resolution": "640x480",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-05 21:36:55",
-        "source_url_requires": "browser"
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
       }
     },
     {
@@ -162,51 +276,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.6736,
-          24.1477
+          121.77018,
+          25.15188
         ]
       },
       "properties": {
-        "name": "Taichung - Wang Gao Liao, Taiwan",
-        "url": "https://www.skylinewebcams.com/webcam/taiwan/taichung/taichung/wang-gao-liao.html",
-        "display_name": "Taichung",
+        "name": "TW - Keelung - 中正路 中正路/正濱路(東) (SW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/779d5831",
+        "display_name": "Keelung, Taiwan",
         "country_code": "TW",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.6736,
-          24.1477
-        ]
-      },
-      "properties": {
-        "name": "Taichung Wang Gao Liao Skyline",
-        "url": "https://www.youtube.com/watch?v=lhXXhDyjFtI",
-        "display_name": "Taichung Wang Gao Liao Skyline, Taiwan",
-        "country_code": "TW",
-        "environment": "urban",
-        "source_family": "skyline-youtube",
-        "quality_tier": "premium",
-        "scene_type": "city",
-        "url_type": "youtube",
-        "resolution": null,
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-05-18 06:30:54",
-        "source_url_requires": null
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
       }
     },
     {
@@ -214,103 +303,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.5167,
-          25.0797
+          121.77015,
+          25.1519
         ]
       },
       "properties": {
-        "name": "Taipei - Dajia Riverside Park, Taiwan",
-        "url": "https://www.skylinewebcams.com/en/webcam/taiwan/new-taipei-city/taipei-city/dajia-riverside-park.html",
-        "display_name": "Taipei",
-        "country_code": "TW",
-        "environment": "urban",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "urban",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5175,
-          25.0781
-        ]
-      },
-      "properties": {
-        "name": "Taipei - Jiantanshan Observatory, Taiwan",
-        "url": "https://www.skylinewebcams.com/en/webcam/taiwan/new-taipei-city/taipei-city/jiantanshan-weifeng-observatory.html",
-        "display_name": "Taipei",
-        "country_code": "TW",
-        "environment": "mountain",
-        "source_family": "skylinewebcams",
-        "quality_tier": "premium",
-        "scene_type": "mountain",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "token_refresh"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.575,
-          25.027
-        ]
-      },
-      "properties": {
-        "name": "Taipei Elephant Mountain - Taipei 101 4K",
-        "url": "https://www.youtube.com/watch?v=JLEmtG9heG0",
-        "display_name": "Taipei Elephant Mountain, Taiwan",
-        "country_code": "TW",
-        "environment": "mountain",
-        "source_family": "youtube_scenic",
-        "quality_tier": "premium",
-        "scene_type": "mountain",
-        "url_type": "youtube",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.9718,
-          24.8015
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - Freeway 1 Hsinchu",
-        "url": "https://cctv.freeway.gov.tw/abs2mjpg/bmjpg?camera=1-5K-0.01",
-        "display_name": "Taiwan",
+        "name": "TW - Keelung - 中正路 中正路/正濱路(西) (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/8edd00b1",
+        "display_name": "Keelung, Taiwan",
         "country_code": "TW",
         "environment": "traffic",
-        "source_family": "taiwan_freeway",
+        "source_family": "tdx_city_cctv",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
       }
     },
     {
@@ -318,467 +330,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.5654,
-          25.033
+          121.77237,
+          25.15099
         ]
       },
       "properties": {
-        "name": "Taiwan - Freeway 1 Taipei",
-        "url": "https://cctv.freeway.gov.tw/abs2mjpg/bmjpg?camera=1-1K-0.01",
-        "display_name": "Taiwan",
+        "name": "TW - Keelung - 中正路 北寧路 祥豐街(中正) (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/64253e5c",
+        "display_name": "Keelung, Taiwan",
         "country_code": "TW",
         "environment": "traffic",
-        "source_family": "taiwan_freeway",
+        "source_family": "tdx_city_cctv",
         "quality_tier": "standard",
         "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.301,
-          24.9936
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - Freeway 1 Taoyuan",
-        "url": "https://cctv.freeway.gov.tw/abs2mjpg/bmjpg?camera=1-3K-0.01",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4651,
-          25.0118
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - Freeway 3 New Taipei",
-        "url": "https://cctv.freeway.gov.tw/abs2mjpg/bmjpg?camera=3-1K-0.01",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7533,
-          24.757
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - Freeway 5 Yilan",
-        "url": "https://cctv.freeway.gov.tw/abs2mjpg/bmjpg?camera=5-1K-0.01",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5161,
-          24.0518
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Changhua",
-        "url": "https://cctv-ss02.freeway.gov.tw/mjpeg/003?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.3014,
-          22.6273
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Kaohsiung",
-        "url": "https://cctv-ss03.freeway.gov.tw/mjpeg/002?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7392,
-          25.1276
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Keelung",
-        "url": "https://cctv-ss01.freeway.gov.tw/mjpeg/002?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.6736,
-          24.1477
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Taichung",
-        "url": "https://cctv-ss02.freeway.gov.tw/mjpeg/001?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.2269,
-          22.9998
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Tainan",
-        "url": "https://cctv-ss03.freeway.gov.tw/mjpeg/001?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.5654,
-          25.033
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Taipei",
-        "url": "https://cctv-ss01.freeway.gov.tw/mjpeg/001?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.301,
-          24.9936
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 1 Taoyuan",
-        "url": "https://cctv-ss01.freeway.gov.tw/mjpeg/005?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.8214,
-          24.5602
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 3 Miaoli",
-        "url": "https://cctv-ss02.freeway.gov.tw/mjpeg/002?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.4651,
-          25.0119
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 3 New Taipei",
-        "url": "https://cctv-ss01.freeway.gov.tw/mjpeg/003?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.4929,
-          22.6762
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 3 Pingtung",
-        "url": "https://cctv-ss03.freeway.gov.tw/mjpeg/003?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7533,
-          24.757
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - National Freeway 5 Yilan",
-        "url": "https://cctv-ss01.freeway.gov.tw/mjpeg/004?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.1444,
-          22.7583
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - Provincial Highway 9 Taitung",
-        "url": "https://cctv-ss04.freeway.gov.tw/mjpeg/002?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.6014,
-          23.991
-        ]
-      },
-      "properties": {
-        "name": "Taiwan - Suhua Highway Hualien",
-        "url": "https://cctv-ss04.freeway.gov.tw/mjpeg/001?t=1",
-        "display_name": "Taiwan",
-        "country_code": "TW",
-        "environment": "traffic",
-        "source_family": "taiwan_freeway",
-        "quality_tier": "standard",
-        "scene_type": "traffic",
-        "url_type": "html_page",
-        "resolution": null,
-        "coordinates_quality": "city",
-        "status": "unverified",
-        "last_verified": null,
-        "source_url_requires": "browser"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.14457,
-          22.75991
-        ]
-      },
-      "properties": {
-        "name": "Torik Visitor Center Webcam - Taiwan 🎦",
-        "url": "https://www.youtube.com/watch?v=JhQuR77AR7U",
-        "display_name": "Torik Visitor Center",
-        "country_code": "TW",
-        "environment": "coastal",
-        "source_family": "worldviewstream",
-        "quality_tier": "high",
-        "scene_type": "beach",
-        "url_type": "youtube",
+        "url_type": "mjpeg",
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-06-12 11:01:05",
-        "source_url_requires": null
+        "last_verified": "2026-11-02T03:57:20+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
       }
     },
     {
@@ -786,25 +357,1349 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.29696,
-          24.99368
+          121.74347,
+          25.12955
         ]
       },
       "properties": {
-        "name": "Yongan Fishing Harbour Webcam - Taiwan 🎦",
-        "url": "https://www.youtube.com/watch?v=tD_a03trUvE",
-        "display_name": "Yongan Fishing Harbour",
+        "name": "TW - Keelung - 仁二路 仁二路 愛三路 (W)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/f29f13e0",
+        "display_name": "Keelung, Taiwan",
         "country_code": "TW",
-        "environment": "coastal",
-        "source_family": "worldviewstream",
-        "quality_tier": "high",
-        "scene_type": "beach",
-        "url_type": "youtube",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74724,
+          25.12743
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 仁二路 仁二路 愛六路 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/05c7e2d9",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72868,
+          25.11439
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 八德路 麥金路 八德路 (N)",
+        "url": "https://cctv.klcg.gov.tw/b5c9cfa1",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77201,
+          25.15099
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 北寧路 中正路 祥豐街(北寧) (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/d2fd095d",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74173,
+          25.12692
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 南榮路 愛三路 仁五路 (N)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/24b2e625",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74872,
+          25.09825
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2丁線 源遠路152巷 (W)",
+        "url": "https://cctv.klcg.gov.tw/8ac41eaa",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73903,
+          25.09457
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2丙線 東勢街 東碇路 (W)",
+        "url": "https://cctv.klcg.gov.tw/2663d548",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-06-05 03:15:49",
-        "source_url_requires": null
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72117,
+          25.1456
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2己線 中和交流道(上閘道) (W)",
+        "url": "https://cctv.klcg.gov.tw/81e2f04c",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-02T04:54:18+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7251,
+          25.15022
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2己線 德安交流道(下匝道) (E)",
+        "url": "https://cctv.klcg.gov.tw/479eb795",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77249,
+          25.15101
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2線 中正路 北寧路 祥豐街(東) (W)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/47668ccf",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.70969,
+          25.14194
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2線 基金一路 基金一路208巷 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/7add3ec8",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6975,
+          25.15214
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台2線 基金三路 基金三路56號 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/6613ea0b",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77733,
+          25.12838
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台62甲線 台62甲 孝東路(北) (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/b97b5980",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77777,
+          25.12765
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台62甲線 台62甲 孝東路(南) (W)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/31fb51dc",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79764,
+          25.11975
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 台62線 調和街 深澳坑路 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/2509bb1d",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.71492,
+          25.13972
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 國道3號 基金一路 基金交流道下匝道 (N)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/9cc4ca1c",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.71274,
+          25.14009
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 基金一路 基金一路 基金交流道 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/afc440ef",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.69994,
+          25.14886
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 基金三路 大武崙工業區口 基金二路14號 (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/79735f24",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.70344,
+          25.14209
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 基金二路 基金一路/二路1巷/台62匝道口 (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/a4fbca47",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72226,
+          25.14464
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 基隆港西岸聯外引道1 中和交流道(下閘道) (NE)",
+        "url": "https://cctv.klcg.gov.tw/4b0d8d8c",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.69376,
+          25.08476
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 堵南街 百福橋 (SW)",
+        "url": "https://cctv.klcg.gov.tw/2dd73593",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72253,
+          25.12013
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 安樂路二段 安樂路 麥金路 (SW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/c9a99974",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72402,
+          25.1214
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 安樂路二段 安樂路二段 安和一街 (SW)",
+        "url": "https://cctv.klcg.gov.tw/4654972b",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "917x578",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72491,
+          25.15067
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 德安路 德安交流道(上匝道) (SE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/7a0cfa17",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72579,
+          25.1487
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 德安路 德安路 復興路 新橫濱 (SE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/6c944104",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74098,
+          25.13096
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 忠一路 忠一路 孝二路 (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/1c8ebc07",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74028,
+          25.13126
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 忠一路 忠一路 孝四路 (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/10afbef6",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-02T05:56:05+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74399,
+          25.1305
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 愛三路 仁一路 愛三路 (SW)",
+        "url": "https://cctv.klcg.gov.tw/48603956",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73919,
+          25.1283
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 成功二路 孝二路 忠四路 (SE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/70cf7bac",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73542,
+          25.13169
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 成功二路 安一路 西定路 (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/108ffee4",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.73241,
+          25.15442
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 文明路 文明路 文化路 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/98f747e4",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x448",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7828,
+          25.13508
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 新豐街 深溪路 深美街 新豐街口 (SW)",
+        "url": "https://cctv.klcg.gov.tw/0ff6abfc",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-11-02T03:25:18+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.71762,
+          25.09941
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 明德一路 明德一路 光明路 (往台北) (SW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/bf14f2af",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.68381,
+          25.08376
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 明德三路 實踐路253巷 堵南街 (W)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/d732959c",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7602,
+          25.1286
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 東信路 正信路 信一路 (W)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/6972615b",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.76443,
+          25.12823
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 東明路 東信路 崇法街 (E)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/facd4662",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.75274,
+          25.13962
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 東海街 台62甲匝道 東海街 (W)",
+        "url": "https://cctv.klcg.gov.tw/cce885d5",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77018,
+          25.15191
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 正濱路 中正路/正濱路(北) (SE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/1098d034",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.76915,
+          25.15341
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 正濱路 正濱路 正濱路166巷口 (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/cc6b56ab",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78049,
+          25.1285
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 深溪路 孝東路 深溪路 深澳坑路 (北) (S)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/e396f4c8",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7805,
+          25.12845
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 深溪路 深澳坑路 深溪路 (S)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/123f54a1",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78052,
+          25.12847
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 深澳坑路 孝東路 深溪路 深澳坑路 (東) (NW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/2df67f02",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.78047,
+          25.12849
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 深澳坑路 孝東路 深溪路 深澳坑路 (西北) (SE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/b872ad93",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.74026,
+          25.10259
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 源遠路 源遠路 暖江橋 (SE)",
+        "url": "https://cctv.klcg.gov.tw/13c398d2",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.68477,
+          25.0825
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 無名道路1 堵南路 千祥橋頭 (NW)",
+        "url": "https://cctv.klcg.gov.tw/24c20536",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.7723,
+          25.15071
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 祥豐街 中正路 北寧路 祥豐街(東南) (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/d6dee07c",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x450",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.76052,
+          25.14195
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 祥豐街 中正路 祥豐街 豐稔路 (SW)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/41b0eff2",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "640x480",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.77225,
+          25.15075
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 祥豐街 北寧路 祥豐路 (祥豐) (NE)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/582d9c95",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "1280x720",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.79624,
+          25.1394
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 調和街 北寧路 調和街 (N)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/c78e20a2",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "800x600",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72193,
+          25.12076
+        ]
+      },
+      "properties": {
+        "name": "TW - Keelung - 麥金路 麥金路 長庚醫院 (N)",
+        "url": "https://CCTV.KLCG.GOV.TW:443/ed3956e0",
+        "display_name": "Keelung, Taiwan",
+        "country_code": "TW",
+        "environment": "traffic",
+        "source_family": "tdx_city_cctv",
+        "quality_tier": "standard",
+        "scene_type": "traffic",
+        "url_type": "mjpeg",
+        "resolution": "917x578",
+        "coordinates_quality": "exact",
+        "status": "active",
+        "last_verified": "2026-10-14T18:37:08+00:00",
+        "source_url_requires": null,
+        "attribution": "Keelung City Government via TDX (OGDL-Taiwan-1.0)"
       }
     }
   ]

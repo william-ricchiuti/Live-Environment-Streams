@@ -74,6 +74,8 @@ def validate_stream(feature: dict) -> str:
         return "active" if probe_hls(url) else "deprecated"
     elif url_type == "youtube":
         return "active" if probe_youtube(url) else "unverified"  # YT may be offline temporarily
+    elif url_type in ("mjpeg", "mp4"):
+        return "active" if probe_http(url) else "deprecated"
     elif url_type == "http_image":
         return "active" if probe_http(url) else "deprecated"
 

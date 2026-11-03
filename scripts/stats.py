@@ -67,10 +67,10 @@ def main():
 
     # Agent-usability summary
     directly_usable = sum(1 for f in features
-                          if f["properties"]["url_type"] in ("hls", "youtube")
+                          if f["properties"]["url_type"] in ("hls", "mjpeg", "mp4")
                           and f["properties"]["coordinates_quality"] != "country_centroid")
     print(f"\n--- Agent Usability ---")
-    print(f"  Directly usable (HLS/YouTube + real coords): {directly_usable}")
+    print(f"  Directly usable (HLS/MJPEG/MP4 + real coords): {directly_usable}")
     print(f"  Needs browser extraction: {url_types.get('html_page', 0)}")
     print(f"  Has fallback coordinates: {coord_quality.get('country_centroid', 0)}")
 
