@@ -1,6 +1,7 @@
 # Live Environment Streams
 
-A curated, agent-optimized repository of live outdoor webcam streams across the globe.
+A curated, agent-optimized GeoJSON dataset of public live camera streams from road authorities
+in the US, Indonesia, Thailand, Norway, Taiwan and Germany.
 Originally created to power [twitch.tv/alwaysrainsomewhere](https://www.twitch.tv/alwaysrainsomewhere).
 
 **6,903 streams · 6 countries · 26 sources · all from public road authorities · every URL directly playable**
@@ -40,6 +41,20 @@ usable = [
 
 Add `"mjpeg"` and `"mp4"` to the `url_type` filter if your pipeline handles them
 (for MJPEG, `ffprobe -f mpjpeg <url>`).
+
+## Quick start (no clone needed)
+
+```python
+import json, urllib.request
+
+URL = "https://raw.githubusercontent.com/william-ricchiuti/Live-Environment-Streams/main/streams.geojson"
+streams = json.load(urllib.request.urlopen(URL))["features"]
+
+# One country only (smaller download): https://raw.githubusercontent.com/william-ricchiuti/Live-Environment-Streams/main/data/NO.json
+```
+
+Pin a version instead of `main` by using a release tag in the URL, e.g.
+`https://raw.githubusercontent.com/william-ricchiuti/Live-Environment-Streams/v4.0.0/streams.geojson`.
 
 ## Usage
 
@@ -185,6 +200,14 @@ Why each source is in or out: `SOURCES-REVIEW.md`.
 | TW | 63 |
 | DE | 8 |
 
+## Licence
+
+- **Data** (`streams.geojson`, `data/`, `sources.json`): [CC BY 4.0](LICENSE). Credit
+  "Live Environment Streams (William Ricchiuti)" **and** keep each stream's `attribution`
+  field. Some upstream licences (NLOD, CC BY 4.0, MD iMAP) require that operator credit.
+- **Scripts** (`scripts/`): [MIT](scripts/LICENSE).
+- **Citation:** see [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
+
 ## Attribution
 
 When you republish or display these streams, credit the operator given in each feature's
@@ -201,6 +224,8 @@ it does not grant any right to the footage.
 
 ```
 streams.geojson          # Master file (all 6,903 streams)
+LICENSE                  # CC BY 4.0 (data); scripts/LICENSE is MIT
+CITATION.cff             # How to cite the dataset
 sources.json             # Per-source metadata (licence, attribution, terms URL, counts)
 SOURCES-REVIEW.md        # Licence/terms finding for every source, included or excluded
 data/                    # Per-country GeoJSON subsets (e.g. data/US.json)

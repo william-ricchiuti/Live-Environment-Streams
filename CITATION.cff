@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and keep each stream's attribution field."
+type: dataset
+title: "Live Environment Streams"
+abstract: >-
+  GeoJSON dataset of public live camera streams (HLS, MJPEG, MP4) from road
+  authorities, exported from a production 24/7 streaming pipeline, with a
+  licence review per source. Built for AI agents, computer vision and
+  weather monitoring.
+authors:
+  - given-names: William
+    family-names: Ricchiuti
+version: 4.0.0
+date-released: 2026-11-03
+license: CC-BY-4.0
+repository-code: "https://github.com/william-ricchiuti/Live-Environment-Streams"
+keywords:
+  - dataset
+  - geojson
+  - webcams
+  - traffic cameras
+  - hls
+  - open data
+  - computer vision
+  - weather

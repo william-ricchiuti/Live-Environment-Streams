@@ -31,6 +31,8 @@ operator's terms. Stream count: 5,997 → 6,903. Every stream is `active` and ha
 - `attribution` property on every feature: the credit each operator asks for.
 - `url_type` values `mjpeg` and `mp4`.
 - `SOURCES-REVIEW.md`: the licence/terms finding for every source, included or excluded.
+- `LICENSE` (CC BY 4.0 for the data), `scripts/LICENSE` (MIT), and `CITATION.cff`.
+- Direct-download (raw GitHub) URLs in the README and `llms.txt`.
 
 ### Removed
 - **Retired families are dropped, not marked `status: retired`.** SkylineWebcams (1,684) has
