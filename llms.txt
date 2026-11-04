@@ -1,26 +1,28 @@
 # Live Environment Streams — LLM Guide
 
 ## Purpose
-Master index of live outdoor camera sources (HLS, YouTube Live, HTML pages) formatted for machine learning, computer vision, and AI agent pipelines. Primary data source for real-time environmental monitoring.
+Index of live outdoor camera streams (HLS, MJPEG, MP4 clips) for machine learning, computer vision, weather correlation and AI agent pipelines. Version 4.0.0 (2026-11-03) is exported from the production camera pool behind twitch.tv/alwaysrainsomewhere.
 
-**5,997 streams · 98 countries · 67 source families · 4,226 verified active**
+**6,903 streams · 6 countries (US, ID, TH, NO, TW, DE) · 26 source families · all active · all public road-authority feeds**
 
-## Important: not all streams are directly usable
+## What changed in 4.0.0
+- No SkylineWebcams, YouTube or HTML-page URLs. Every `url` is a direct stream.
+- Only sources whose terms allow listing them (see `SOURCES-REVIEW.md`). No token or signed URLs.
+- New `attribution` property; new `url_type` values `mjpeg` and `mp4`.
 
-Of 5,997 streams, 4,229 have direct HLS or YouTube URLs. The rest (1,768) are HTML page links (mostly SkylineWebcams) where the HLS manifest must be extracted from the page at fetch time, because the direct URLs use expiring auth tokens. Always filter by `url_type` before passing URLs to ffmpeg or yt-dlp.
-
-Recommended filter for immediately usable streams:
+## Recommended filter
 
 ```python
 usable = [f for f in streams
     if f["properties"]["status"] == "active"
-    and f["properties"]["url_type"] in ("hls", "youtube")
-    and f["properties"]["source_url_requires"] is None]
+    and f["properties"]["url_type"] == "hls"
+    and f["properties"]["coordinates_quality"] == "exact"]
+# 6,389 streams
 ```
 
 ## Verification provenance
 
-`status: "active"` means the stream passed live ffprobe validation by a production 24/7 streaming system (the pipeline behind twitch.tv/alwaysrainsomewhere), not a one-time HTTP check. `last_verified` carries the probe timestamp. `unverified` means not yet probed — dead and rejected streams are excluded from the dataset entirely.
+`status: "active"` means the camera is in the validated pool of a production 24/7 streaming system, which plays and re-probes it with ffprobe. `last_verified` is the last validation that system recorded (ISO 8601 UTC). It can be weeks old for cameras that keep playing, and it is null for 1,308 streams. Dead, rejected and quarantined cameras are not exported.
 
 ## Schema
 
@@ -31,68 +33,65 @@ Each Feature:
 - `properties`:
   - `name` (string): Camera descriptive name.
   - `display_name` (string): Human-readable location label.
-  - `url` (string): Stream URL — HLS manifest, YouTube watch URL, or HTML page.
+  - `url` (string): Direct stream URL.
   - `country_code` (string): ISO 3166-1 alpha-2.
-  - `environment` (string): `traffic`, `urban`, `coastal`, `mountain`, `harbor`, `marina`, `waterway`, `lake`, `nature`, `landmark`, `transport`.
-  - `source_family` (string): Data source identifier. See `sources.json` for metadata.
-  - `quality_tier` (string): `premium`, `high`, `standard`, or `low` — production scoring tier reflecting scene quality and reliability.
-  - `scene_type` (string): Granular scene label (traffic, beach, city, etc.).
-  - `url_type` (string): **Critical for agents.** `hls` = direct .m3u8 manifest. `youtube` = YouTube watch URL (use yt-dlp). `html_page` = extract the stream URL from the page.
-  - `resolution` (string|null): Probed video resolution (`WxH`), where known. 717 streams are confirmed 720p+.
-  - `coordinates_quality` (string): `exact` = camera-level. `city` = town level (~10 km, fine for weather queries). `country_centroid` = capital fallback, unreliable.
-  - `status` (string): `active` = verified by the production pipeline. `unverified` = not yet probed.
-  - `last_verified` (string|null): ISO 8601 timestamp of last successful probe, or null.
-  - `source_url_requires` (string|null): `browser` = needs JS rendering. `token_refresh` = page must be fetched to mint a fresh stream token. `null` = direct access.
+  - `environment` (string): `traffic` (6,893), `landmark`, `lake`.
+  - `source_family` (string): Data source identifier. See `sources.json`.
+  - `quality_tier` (string): `premium`, `high`, `standard`, or `low` (production scoring tier).
+  - `scene_type` (string): Granular scene label.
+  - `url_type` (string): `hls` = .m3u8 manifest (6,832). `mjpeg` = multipart JPEG stream (63; use `ffmpeg -f mpjpeg`). `mp4` = short clip the operator refreshes (8).
+  - `resolution` (string|null): Probed `WxH` where known; 1,028 streams are 720p+.
+  - `coordinates_quality` (string): `exact` = operator position not shared by 3+ cameras (6,453). `city` = position shared by 3+ cameras (449). `country_centroid` = fallback (1).
+  - `status` (string): Always `active`.
+  - `last_verified` (string|null): Last recorded validation.
+  - `source_url_requires` (null): Kept for compatibility; always null.
+  - `attribution` (string): Credit requested by the operator. Keep it when republishing.
 
-## Source Family Index (top 10 of 67)
+## Source Family Index
 
-| source_family | Description | Streams | URL type | License |
-|---------------|-------------|---------|----------|---------|
-| skylinewebcams | Scenic/tourism webcam network | 1,684 | html_page | fair_use |
-| vdot | Virginia DOT | 1,168 | hls | public_domain |
-| opencctv | Open CCTV feeds | 746 | hls | varies |
-| mdsha | Maryland SHA | 404 | hls | public_domain |
-| deldot | Delaware DOT | 261 | hls | public_domain |
-| autobahn_nrw | German Autobahn NRW | 252 | hls | public_domain |
-| trafficvision | Traffic aggregator | 245 | hls | varies |
-| manual | Hand-curated feeds | 224 | hls + youtube | varies |
-| skyline-youtube | SkylineWebcams via YouTube | 167 | youtube | fair_use |
-| youtube | YouTube Live cams | 86 | youtube | fair_use |
+| source_family | Operator | Streams | License |
+|---------------|----------|---------|---------|
+| caltrans | California DOT | 1,676 | public domain |
+| vdot | Virginia DOT | 1,174 | public sector, no terms found |
+| mndot | Minnesota DOT | 973 | public sector, no terms found |
+| iowa_dot | Iowa DOT | 543 | CC BY 4.0 |
+| mdsha | Maryland SHA | 404 | MD iMAP open data (credit State of Maryland) |
+| seattle_sdot | Seattle DOT | 341 | public sector, no terms found |
+| ladotd_511 | Louisiana DOTD | 330 | public sector, no terms found |
+| deldot | Delaware DOT | 260 | public sector, no terms found |
+| goakamai_hdot | Hawaii DOT | 247 | public sector, no terms found |
+| trafficvision | Thailand Dept. of Highways | 155 | public sector, no terms found |
+| vegvesen_video | Statens vegvesen (Norway) | 106 | NLOD |
+| tdx_city_cctv | Keelung City via Taiwan TDX | 63 | OGDL-Taiwan 1.0 |
+| hessen_mobil | Hessen Mobil (Germany) | 8 | public sector, no terms found |
+| atcs-* / cctv-* | Indonesian city transport offices (13 families) | 623 | public sector, no terms found |
 
-Full metadata for all 67 families in `sources.json` (includes `active_count` per family).
+Full metadata in `sources.json` (license, attribution, terms_url, stream/active counts).
 
 ## Agent query patterns
 
-1. **Filter by status and URL type first.** Only `hls` and `youtube` URLs can be passed directly to media tools; prefer `status: "active"`.
-
-2. **Coordinates are weather-grade.** `city` quality (~10 km) is fine for weather correlation; only 10 streams remain on `country_centroid` fallbacks.
-
-3. **Check `source_url_requires`.** `token_refresh` streams publish stable page URLs — fetch the page to mint a fresh stream token. `browser` needs JavaScript rendering.
-
-4. **Per-country files** in `data/` minimize token load. Use `data/US.json` instead of loading the full 5,997-stream file when you only need one country.
-
-5. **Source metadata** in `sources.json` provides license info, refresh method, stream/active counts, and reliability notes per source family.
+1. **Filter by `url_type`.** `hls` works directly with ffmpeg/ffprobe; `mjpeg` needs `-f mpjpeg`.
+2. **Coordinates are camera-level for 93% of streams.** Use `coordinates_quality == "exact"` for precise mapping; `city` is fine for weather lookups.
+3. **Expect regional reachability limits.** Indonesian and Thai feeds often time out outside Asia.
+4. **Per-country files** in `data/` reduce token load (e.g. `data/NO.json`).
+5. **Keep attribution.** Each feature's `attribution` is the credit its operator asks for.
 
 ## Quick recipes
 
 ```python
-# HD verified streams for vision pipelines
+# HD streams for vision pipelines
 hd = [f for f in streams if f["properties"]["resolution"]
-      and int(f["properties"]["resolution"].split("x")[1]) >= 720
-      and f["properties"]["status"] == "active"]
+      and int(f["properties"]["resolution"].split("x")[1]) >= 720]
 
-# Rain-prone region sampling (Japan, NZ, Norway, Iceland, SE Asia, PNW)
+# Rain-prone regions
 rainy = [f for f in streams
-         if f["properties"]["country_code"] in ("JP","NZ","NO","IS","IE","TH","PH","VN","MY","SG")]
-
-# Scenic (non-traffic) verified streams
-scenic = [f for f in streams
-          if f["properties"]["environment"] not in ("traffic","transport")
-          and f["properties"]["status"] == "active"]
+         if f["properties"]["country_code"] in ("NO", "ID", "TH", "TW")
+         or f["properties"]["source_family"] in ("seattle_sdot", "goakamai_hdot")]
 ```
 
 ## File structure
-- `streams.geojson`: Master file (all 5,997 streams).
+- `streams.geojson`: Master file (all 6,903 streams).
 - `sources.json`: Per-source metadata.
-- `data/`: Per-country GeoJSON files (e.g. `data/US.json`, `data/IT.json`).
-- `scripts/`: Validation and maintenance tools.
+- `SOURCES-REVIEW.md`: Licence/terms finding per source, included or excluded.
+- `data/`: Per-country GeoJSON files (e.g. `data/US.json`).
+- `scripts/`: Export, validation and maintenance tools.
