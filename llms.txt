@@ -41,7 +41,7 @@ Each Feature:
   - `scene_type` (string): Granular scene label.
   - `url_type` (string): `hls` = .m3u8 manifest (6,832). `mjpeg` = multipart JPEG stream (63; use `ffmpeg -f mpjpeg`). `mp4` = short clip the operator refreshes (8).
   - `resolution` (string|null): Probed `WxH` where known; 1,028 streams are 720p+.
-  - `coordinates_quality` (string): `exact` = camera-level (6,460). `city` = position shared by several cameras (442). `country_centroid` = fallback (1).
+  - `coordinates_quality` (string): `exact` = operator position not shared by 3+ cameras (6,453). `city` = position shared by 3+ cameras (449). `country_centroid` = fallback (1).
   - `status` (string): Always `active`.
   - `last_verified` (string|null): Last recorded validation.
   - `source_url_requires` (null): Kept for compatibility; always null.
@@ -71,7 +71,7 @@ Full metadata in `sources.json` (license, attribution, terms_url, stream/active 
 ## Agent query patterns
 
 1. **Filter by `url_type`.** `hls` works directly with ffmpeg/ffprobe; `mjpeg` needs `-f mpjpeg`.
-2. **Coordinates are camera-level for 94% of streams.** Use `coordinates_quality == "exact"` for precise mapping; `city` is fine for weather lookups.
+2. **Coordinates are camera-level for 93% of streams.** Use `coordinates_quality == "exact"` for precise mapping; `city` is fine for weather lookups.
 3. **Expect regional reachability limits.** Indonesian and Thai feeds often time out outside Asia.
 4. **Per-country files** in `data/` reduce token load (e.g. `data/NO.json`).
 5. **Keep attribution.** Each feature's `attribution` is the credit its operator asks for.

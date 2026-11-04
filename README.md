@@ -148,8 +148,8 @@ their terms do not allow listing them (see `SOURCES-REVIEW.md`).
 
 | Quality | Count | Accuracy |
 |---------|------:|----------|
-| `exact` | 6,460 | Camera-level position from the operator's feed |
-| `city` | 442 | Several cameras share one position (interchange or city level) |
+| `exact` | 6,453 | Position from the operator's feed, not shared with two or more other cameras |
+| `city` | 449 | Three or more cameras share one position (interchange or city level) |
 | `country_centroid` | 1 | Fallback; do not use for geo-queries |
 
 ## Sources
@@ -232,9 +232,11 @@ scripts/
 
 To add a new source:
 
-1. Check the operator's terms and add a row to `SOURCES-REVIEW.md`.
-2. Add streams to `streams.geojson` following the schema above. All fields are required
-   (`resolution` and `last_verified` may be `null`). Never add URLs with tokens or signatures.
+1. Check the operator's terms and add a row to `SOURCES-REVIEW.md`. To export it, add the
+   family, its attribution and its stream hosts to `PUBLISHED_FAMILIES` in
+   `scripts/export_from_sqlite.py`.
+2. Add streams to `streams.geojson` following the schema above. All fields are required,
+   including `attribution` (`resolution` and `last_verified` may be `null`). Never add URLs with tokens or signatures.
 3. Add source metadata to `sources.json`.
 4. Run `python scripts/regenerate_country_files.py` to update `data/`.
 5. Run `python scripts/stats.py` to verify counts.

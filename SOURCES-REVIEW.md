@@ -38,9 +38,10 @@ Counts are rows in the production pool on 2026-11-03.
 | `hessen_mobil` (was mislabelled `autobahn_nrw`) | Hessen Mobil | Cleared (provisional) | No licence found; site was unreadable (TLS error) | Hessen Mobil | https://www.verkehrsservice.hessen.de |
 | `atcs-*`, `cctv-*` (Indonesian cities) | Municipal transport offices (Dinas Perhubungan) | Cleared (provisional) | Published for the public, no terms found | Dinas Perhubungan of the city | none found |
 
-Within these families, rows on private hosts (`atcsindonesia.info`,
-`aldilinux.my.id`, `jaring.host`, `iticfoundation.org`) and on bare IP
-addresses are left out: 107 rows.
+Every published family has a fixed list of its own stream hosts in the export script. Rows
+outside it are left out: 107 rows in all. That covers `atcs-surakarta` and
+`cctv-banjarmasin` (privately hosted, 82 rows), Thai Highways rows relayed through
+iticfoundation.org, a private Cianjur host, and bare IP addresses.
 
 ## Excluded
 
@@ -78,7 +79,8 @@ nothing to mark `retired`. See CHANGELOG 4.0.0.
 ## URL rules (all families)
 
 Even in a cleared family, a URL is dropped if any of these apply:
-- it has a token, signature, auth, key, hash, expiry, session or `uid` query parameter
+- it has any query string, fragment or `;` path parameter (no published URL needs one)
+- its host is not one of the family's own hosts, or is a private name (`localhost`, `.local`, `.internal`, …)
 - its path is a Wowza per-session `chunklist_w…`, a `/bearer/` segment or a JWT
 - its host is known to issue expiring tokens (balticlivecam, SkylineWebcams, YouTube/googlevideo, wetmet)
 - it has credentials in the URL, or its host is a bare IP address

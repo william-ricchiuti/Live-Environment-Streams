@@ -10,7 +10,8 @@ operator's terms. Stream count: 5,997 → 6,903. Every stream is `active` and ha
   the validated live-video and MJPEG cameras (13,072 rows) and applies the publication policy.
   It opens the database read-only.
 - **Allowlist publication policy.** A source is exported only if it has a reviewed entry
-  (`SOURCES-REVIEW.md`). Any URL with a token, signature, auth, key, expiry, session or `uid`
+  (`SOURCES-REVIEW.md` and `PUBLISHED_FAMILIES` in the script), and only from that
+  source's own hosts. Published URLs carry no query string, fragment or path parameters. Any URL with a token, signature, auth, key, expiry, session or `uid`
   parameter, a Wowza per-session chunklist, a bearer path segment, credentials or a bare IP
   host is dropped.
 - `sources.json` rebuilt: 26 families, with `license`, `attribution` and `terms_url` fields
@@ -19,7 +20,7 @@ operator's terms. Stream count: 5,997 → 6,903. Every stream is `active` and ha
   `Louisiana_DOT` into `ladotd_511`; `vdotcameras` into `vdot`. `autobahn_nrw` is renamed
   `hessen_mobil`, because those streams come from Hessen Mobil, not NRW.
 - `coordinates_quality`: `exact` unless the importer marked a fallback, or three or more
-  cameras share one position (then `city`). Result: 6,460 exact, 442 city, 1 fallback.
+  cameras share one position (then `city`). Result: 6,453 exact, 449 city, 1 fallback.
 - `scripts/validate.py` now probes `mjpeg` and `mp4` URLs. `scripts/stats.py` counts them as
   directly usable.
 

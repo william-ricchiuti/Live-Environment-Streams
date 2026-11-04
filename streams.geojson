@@ -24375,7 +24375,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "640x480",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -24402,7 +24402,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "640x480",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -25455,7 +25455,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "640x480",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -25509,7 +25509,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "800x450",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -25536,7 +25536,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "800x450",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -25563,7 +25563,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "800x450",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -25590,7 +25590,7 @@
         "scene_type": "traffic",
         "url_type": "mjpeg",
         "resolution": "800x450",
-        "coordinates_quality": "exact",
+        "coordinates_quality": "city",
         "status": "active",
         "last_verified": "2026-10-14T18:37:08+00:00",
         "source_url_requires": null,
@@ -46652,7 +46652,7 @@
         "resolution": "1920x1080",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-23T10:28:57+00:00",
+        "last_verified": "2026-11-03T21:48:10+00:00",
         "source_url_requires": null,
         "attribution": "Caltrans (California Department of Transportation)"
       }
@@ -84884,7 +84884,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T20:38:59+00:00",
+        "last_verified": "2026-11-04T00:22:47+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -85343,7 +85343,7 @@
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T09:24:06+00:00",
+        "last_verified": "2026-11-03T22:55:20+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -85397,7 +85397,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-29T06:51:59+00:00",
+        "last_verified": "2026-11-04T02:22:38+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -88718,7 +88718,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-02T04:30:37+00:00",
+        "last_verified": "2026-11-04T03:45:34+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -89312,7 +89312,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T15:37:58+00:00",
+        "last_verified": "2026-11-04T04:32:35+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -91985,7 +91985,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T20:28:03+00:00",
+        "last_verified": "2026-11-03T23:06:22+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -92006,7 +92006,7 @@
         "country_code": "US",
         "environment": "traffic",
         "source_family": "iowa_dot",
-        "quality_tier": "standard",
+        "quality_tier": "high",
         "scene_type": "traffic",
         "url_type": "hls",
         "resolution": "480x270",
@@ -92849,7 +92849,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T11:57:02+00:00",
+        "last_verified": "2026-11-03T22:13:38+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -93680,13 +93680,13 @@
         "country_code": "US",
         "environment": "traffic",
         "source_family": "iowa_dot",
-        "quality_tier": "standard",
+        "quality_tier": "high",
         "scene_type": "traffic",
         "url_type": "hls",
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-29T06:51:59+00:00",
+        "last_verified": "2026-11-04T00:43:05+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -97034,7 +97034,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T18:05:29+00:00",
+        "last_verified": "2026-11-04T03:31:25+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -97601,7 +97601,7 @@
         "resolution": "480x270",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T03:13:15+00:00",
+        "last_verified": "2026-11-04T04:12:27+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -98816,7 +98816,7 @@
         "resolution": "768x432",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-03T17:33:32+00:00",
+        "last_verified": "2026-11-04T02:38:49+00:00",
         "source_url_requires": null,
         "attribution": "Iowa Department of Transportation"
       }
@@ -125729,13 +125729,13 @@
         "country_code": "US",
         "environment": "traffic",
         "source_family": "mndot",
-        "quality_tier": "standard",
+        "quality_tier": "high",
         "scene_type": "traffic",
         "url_type": "hls",
         "resolution": "720x480",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-29T00:11:06+00:00",
+        "last_verified": "2026-11-03T23:39:18+00:00",
         "source_url_requires": null,
         "attribution": "MnDOT (Minnesota Department of Transportation)"
       }
@@ -128132,13 +128132,13 @@
         "country_code": "US",
         "environment": "traffic",
         "source_family": "mndot",
-        "quality_tier": "standard",
+        "quality_tier": "high",
         "scene_type": "traffic",
         "url_type": "hls",
         "resolution": "720x480",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-21T06:42:42+00:00",
+        "last_verified": "2026-11-04T01:38:46+00:00",
         "source_url_requires": null,
         "attribution": "MnDOT (Minnesota Department of Transportation)"
       }
@@ -134402,7 +134402,7 @@
         "resolution": "720x480",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-21T06:49:54+00:00",
+        "last_verified": "2026-11-03T22:36:38+00:00",
         "source_url_requires": null,
         "attribution": "MnDOT (Minnesota Department of Transportation)"
       }
@@ -137912,7 +137912,7 @@
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-10-29T01:11:13+00:00",
+        "last_verified": "2026-11-03T22:38:26+00:00",
         "source_url_requires": null,
         "attribution": "MnDOT (Minnesota Department of Transportation)"
       }
@@ -143366,7 +143366,7 @@
         "resolution": "1280x720",
         "coordinates_quality": "exact",
         "status": "active",
-        "last_verified": "2026-11-02T12:56:36+00:00",
+        "last_verified": "2026-11-04T03:10:43+00:00",
         "source_url_requires": null,
         "attribution": "MnDOT (Minnesota Department of Transportation)"
       }
