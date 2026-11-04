@@ -10,6 +10,15 @@ Index of live outdoor camera streams (HLS, MJPEG, MP4 clips) for machine learnin
 - Only sources whose terms allow listing them (see `SOURCES-REVIEW.md`). No token or signed URLs.
 - New `attribution` property; new `url_type` values `mjpeg` and `mp4`.
 
+## Direct download (no clone)
+- All streams: https://raw.githubusercontent.com/william-ricchiuti/Live-Environment-Streams/main/streams.geojson
+- One country: https://raw.githubusercontent.com/william-ricchiuti/Live-Environment-Streams/main/data/<ISO2>.json (US, ID, TH, NO, TW, DE)
+- Source metadata: https://raw.githubusercontent.com/william-ricchiuti/Live-Environment-Streams/main/sources.json
+- Pin a version by replacing `main` with a release tag (e.g. `v4.0.0`).
+
+## Licence
+Data: CC BY 4.0. Credit "Live Environment Streams (William Ricchiuti)" and keep each feature's `attribution`. Scripts: MIT.
+
 ## Recommended filter
 
 ```python
