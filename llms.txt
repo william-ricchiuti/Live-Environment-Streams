@@ -1,7 +1,7 @@
 # Live Environment Streams — LLM Guide
 
 ## Purpose
-Index of live outdoor camera streams (HLS, MJPEG, MP4 clips) for machine learning, computer vision, weather correlation and AI agent pipelines. Version 4.0.0 (2026-11-03) is exported from the production camera pool behind twitch.tv/alwaysrainsomewhere.
+Index of live outdoor camera streams (HLS, MJPEG, MP4 clips) for machine learning, computer vision, weather correlation and AI agent pipelines. Version 4.0.0 (2026-11-03) is exported from the production camera pool behind twitch.tv/rainsomewherelive.
 
 **6,903 streams · 6 countries (US, ID, TH, NO, TW, DE) · 26 source families · all active · all public road-authority feeds**
 
