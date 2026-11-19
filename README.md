@@ -2,7 +2,7 @@
 
 A curated, agent-optimized GeoJSON dataset of public live camera streams from road authorities
 in the US, Indonesia, Thailand, Norway, Taiwan and Germany.
-Originally created to power [twitch.tv/alwaysrainsomewhere](https://www.twitch.tv/alwaysrainsomewhere).
+Originally created to power [twitch.tv/rainsomewherelive](https://www.twitch.tv/rainsomewherelive).
 
 **6,903 streams · 6 countries · 26 sources · all from public road authorities · every URL directly playable**
 
